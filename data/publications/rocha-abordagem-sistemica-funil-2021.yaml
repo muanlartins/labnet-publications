@@ -1,0 +1,37 @@
+id: rocha-abordagem-sistemica-funil-2021
+title: "Abordagem Sistêmica na Gestão dos Recursos Hídricos de Reservatórios Hidrelétricos: Aplicação no Reservatório da UHE de Funil – RJ"
+title_en: "Systemic Approach to the Management of Water Resources in Hydroelectric Reservoirs: Application to the Funil Hydroelectric Power Plant Reservoir – RJ"
+authors:
+  - name: "Julia Campos Rocha"
+    position: 1
+    member_id: julia-campos-rocha
+    affiliation: "PPE/COPPE/UFRJ"
+authors_labnet: [julia-campos-rocha]
+year: 2021
+month: 7
+date: "2021-07-07"
+type: dissertation
+language: pt
+venue:
+  name: "Programa de Planejamento Energético, COPPE, Universidade Federal do Rio de Janeiro"
+  short_name: "PPE/COPPE/UFRJ"
+  full_name: "Programa de Pós-Graduação em Planejamento Energético, COPPE/UFRJ"
+  type: institution
+  society: other
+location:
+  city: "Rio de Janeiro"
+  country: "Brazil"
+  region: br
+pages: "xviii + 237"
+areas: [energy]
+tags: [system-dynamics, water-resources, hydroelectric, reservoir-management]
+url: "https://www.ppe.ufrj.br/images/publica%C3%A7%C3%B5es/mestrado/Disserta%C3%A7%C3%A3o_Julia.pdf"
+pdf_url: "https://www.ppe.ufrj.br/images/publica%C3%A7%C3%B5es/mestrado/Disserta%C3%A7%C3%A3o_Julia.pdf"
+sources:
+  - source: manual
+    url: "https://www.ppe.ufrj.br/images/publica%C3%A7%C3%B5es/mestrado/Disserta%C3%A7%C3%A3o_Julia.pdf"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Master's dissertation defended 2021-07-07 in the Energy Planning program (PPE/COPPE/UFRJ) — Julia's prior career before entering LabNet's Software Engineering PhD line in 2023. Advisors: Marco Aurélio dos Santos, José Roberto Ribas. Committee: Marco Aurélio Santos, José Roberto Ribas, Marcos Aurélio Vasconcelos Freitas, Flavio Augusto Settimi Sohler. Topic: systems-dynamics modelling of water-quality for the Funil hydroelectric reservoir — outside LabNet's CS remit but relevant to Julia's trajectory. Out-of-scope area 'energy' is the only applicable tag."
