@@ -1,0 +1,53 @@
+id: miceli-gan-telemetry-digital-twin-2025
+title: "Time series forecasting for multidimensional telemetry data based on Generative Adversarial Network in a Digital Twin"
+authors:
+  - name: "João Carmo de Almeida Neto"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Leandro Santiago"
+    position: 2
+    orcid: "0000-0002-3631-8761"
+    affiliation: "Universidade Federal Fluminense"
+  - name: "Leopoldo Lusquino Filho"
+    position: 3
+    orcid: "0000-0002-8283-3764"
+    affiliation: "Universidade Estadual de Campinas"
+  - name: "Claudio M. de Farias"
+    position: 4
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 4
+date: "2025-04-10"
+type: journal_article
+language: en
+venue:
+  name: "Journal of Computational Science"
+  short_name: "J. Comput. Sci."
+  full_name: "Journal of Computational Science"
+  type: journal
+  society: elsevier
+volume: "88"
+publisher: "Elsevier"
+areas: [ml, ai, iot]
+tags: [digital-twin, gan, time-series-forecasting]
+identifiers:
+  doi: "10.1016/j.jocs.2025.102589"
+  openalex_id: "W4409323076"
+  issn: "1877-7503"
+url: "https://doi.org/10.1016/j.jocs.2025.102589"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4409323076"
+    source_id: "W4409323076"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/journals/jocs/NetoAFF25"
+    source_id: "journals/jocs/NetoAFF25"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "An earlier arXiv preprint (2501.08464, title 'Time series forecasting … using GAN and BiLSTM in a Digital Twin') corresponds to this work — only the published Journal of Computational Science article is recorded."

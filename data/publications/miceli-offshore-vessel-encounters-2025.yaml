@@ -1,0 +1,45 @@
+id: miceli-offshore-vessel-encounters-2025
+title: "Analyzing Offshore Vessel Encounters: A Dataset for Enhancing Maritime Security and Monitoring"
+authors:
+  - name: "Vinicius D. do Nascimento"
+    position: 1
+    orcid: "0000-0002-4951-1210"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Diego Leonel Cadette Dutra"
+    position: 3
+    orcid: "0000-0003-4262-7242"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Tiago A. O. Alves"
+    position: 4
+    affiliation: "Universidade do Estado do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 7
+date: "2025-07-07"
+type: conference_paper
+language: en
+venue:
+  name: "2025 28th International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "28th International Conference on Information Fusion"
+  type: conference
+  society: ieee
+areas: [ml, ai, iot]
+tags: [maritime-security, vessel-encounters, dataset]
+identifiers:
+  doi: "10.23919/fusion65864.2025.11124045"
+  openalex_id: "W4413679749"
+url: "https://doi.org/10.23919/fusion65864.2025.11124045"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4413679749"
+    source_id: "W4413679749"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

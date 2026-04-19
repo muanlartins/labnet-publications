@@ -1,0 +1,51 @@
+id: martins-sensor-data-prediction-2019
+title: "Sensor Data Prediction techniques for nodes in IoT"
+authors:
+  - name: "Luis Filipe Kopp"
+    position: 1
+    orcid: "0000-0002-7042-420X"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Gabriel Martins de Oliveira Costa"
+    position: 2
+    member_id: gabriel-martins
+    orcid: "0000-0002-3353-2535"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 3
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Priscila M. V. Lima"
+    position: 4
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luiz F. R. C. Carmo"
+    position: 5
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+authors_labnet: [gabriel-martins, claudio-miceli, luiz-fernando-rust]
+year: 2019
+month: 7
+date: "2019-07-01"
+type: poster
+language: en
+venue:
+  name: "2019 22nd International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "22nd International Conference on Information Fusion"
+  type: conference
+  society: ieee
+areas: [iot, distributed, ml]
+tags: [sensor-prediction, poster]
+identifiers:
+  doi: "10.23919/fusion43075.2019.9011429"
+  openalex_id: "W3011951037"
+url: "https://doi.org/10.23919/fusion43075.2019.9011429"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W3011951037"
+    source_id: "W3011951037"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

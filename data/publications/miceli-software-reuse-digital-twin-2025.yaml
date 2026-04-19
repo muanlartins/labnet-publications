@@ -1,0 +1,46 @@
+id: miceli-software-reuse-digital-twin-2025
+title: "A Rapid Review on Software Reuse in Digital Twin Development Lifecycle"
+authors:
+  - name: "Luís Botelho"
+    position: 1
+    orcid: "0000-0001-7154-8362"
+    affiliation: "Universidade de São Paulo"
+  - name: "Cláudia Werner"
+    position: 2
+    orcid: "0000-0002-4231-9621"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 3
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 9
+date: "2025-09-19"
+type: workshop_paper
+language: en
+venue:
+  name: "Anais do I Workshop em Engenharia de Software para Gêmeos Digitais (SEDT 2025)"
+  short_name: "SEDT"
+  full_name: "1st Workshop on Software Engineering for Digital Twins"
+  type: workshop
+  society: sbc
+location:
+  country: "Brazil"
+  region: br
+areas: [se, se-analytics, iot]
+tags: [digital-twin, software-reuse, literature-review]
+identifiers:
+  doi: "10.5753/sedt.2025.14763"
+  openalex_id: "W4414348165"
+url: "https://doi.org/10.5753/sedt.2025.14763"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4414348165"
+    source_id: "W4414348165"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Co-author 'Luís Botelho' is Luis Miguel Botelho (ORCID 0000-0001-7154-8362, affiliated with USP/Iscte) — NOT the same person as LabNet member Lorena Mamede Botelho."

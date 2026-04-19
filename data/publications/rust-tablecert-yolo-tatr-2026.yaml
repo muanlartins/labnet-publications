@@ -1,0 +1,45 @@
+id: rust-tablecert-yolo-tatr-2026
+title: "Tablecert: YOLO and TATR Enhanced Models to Boost Table Detection and Recognition in Legacy Documents"
+authors:
+  - name: "Patrick Ferreira Barroso"
+    position: 1
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Wilson S. Melo"
+    position: 2
+    orcid: "0000-0002-7710-7995"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Rodrigo David"
+    position: 3
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Luiz Fernando Rust da Costa Carmo"
+    position: 4
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+authors_labnet: [luiz-fernando-rust]
+year: 2026
+month: 2
+date: "2026-02-16"
+type: preprint
+language: en
+venue:
+  name: "Research Square"
+  short_name: "Research Square"
+  full_name: "Research Square preprint repository"
+  type: website
+  society: other
+areas: [cv, ml, ai]
+tags: [table-detection, document-ai, yolo]
+identifiers:
+  doi: "10.21203/rs.3.rs-8864429/v1"
+  openalex_id: "W7129024645"
+url: "https://doi.org/10.21203/rs.3.rs-8864429/v1"
+pdf_url: "https://www.researchsquare.com/article/rs-8864429/latest.pdf"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W7129024645"
+    source_id: "W7129024645"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

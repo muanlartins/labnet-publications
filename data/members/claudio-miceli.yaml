@@ -4,6 +4,7 @@ full_name: Claudio Miceli de Farias
 aliases:
   - Claudio Miceli de Farias
   - Cláudio Miceli de Farias
+  - Claudio M. de Farias
   - C. M. de Farias
   - C. Miceli de Farias
 role: professor
@@ -17,27 +18,27 @@ education:
     field: Informática
     institution: "Universidade Federal do Rio de Janeiro (UFRJ)"
     year: null
-research_areas: []
-bio_en: "Research professor at PESC/COPPE/UFRJ. PhD in Informatics from UFRJ."
-bio_pt: "Professor Pesquisador do PESC/COPPE/UFRJ. Doutor em Informática pela UFRJ."
+research_areas: [iot, distributed, ml, networking, se]
+bio_en: "Research professor at PESC/COPPE/UFRJ. PhD in Informatics from UFRJ. LabNet's primary PI. Research focus: Internet of Things, distributed systems, sensor data fusion, digital twins, and federated learning."
+bio_pt: "Professor Pesquisador do PESC/COPPE/UFRJ. Doutor em Informática pela UFRJ. Coordenador principal do LabNet. Foco de pesquisa: Internet das Coisas, sistemas distribuídos, fusão de dados de sensores, gêmeos digitais e aprendizado federado."
 photo_url: "https://labnet.nce.ufrj.br/images/pessoas/miceli.jpg"
 joined_year: null
 profiles:
   lattes_id: null
   lattes_url: null
-  orcid: null
+  orcid: "0000-0002-1927-7398"
   scholar_id: "S0yCysMAAAAJ"
   scholar_url: "https://scholar.google.com.br/citations?hl=pt-BR&user=S0yCysMAAAAJ&view_op=list_works&sortby=pubdate"
-  dblp_pid: null
-  dblp_url: null
-  openalex_id: null
+  dblp_pid: "125/8102"
+  dblp_url: "https://dblp.org/pid/125/8102"
+  openalex_id: "A5103239461"
   semantic_scholar_id: null
   github: null
   linkedin: null
   website: null
   email: null
-research_since: null
-last_research_date: null
+research_since: "2024-01-01"
+last_research_date: "2026-04-19"
 last_verified: "2026-04-19"
 verified_by: claude
-notes: "Primary LabNet PI. Source page (equipe.html) left Lattes / GitHub / LinkedIn as placeholders; refresh skill should discover Lattes ID and ORCID from public sources."
+notes: "OpenAlex has Claudio split across 4 author records — A5103239461 (primary, ORCID 0000-0002-2384-085X per OpenAlex), A5084620248 (ORCID 0000-0002-1927-7398, DBLP-canonical), A5121639446, A5114285275. Works deduplicated across all. DBLP 125/8102 is the canonical CS identity. Lattes ID not yet verified; discover in a future pass."

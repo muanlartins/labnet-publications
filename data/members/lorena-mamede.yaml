@@ -1,5 +1,6 @@
 id: lorena-mamede
 name: Lorena Mamede
+full_name: Lorena Mamede Botelho
 aliases:
   - Lorena Mamede Botelho
 role: masters_student
@@ -24,6 +25,7 @@ profiles:
   github: "https://github.com/lmamede/"
   linkedin: "https://www.linkedin.com/in/lorena-mamede-botelho-38a01411a/"
 research_since: null
-last_research_date: null
+last_research_date: "2026-04-19"
 last_verified: "2026-04-19"
 verified_by: claude
+notes: "No publications found in OpenAlex/DBLP/SBC SOL as of 2026-04-19. OpenAlex's 'Luís Botelho' (A5012075594, Iscte/Lisbon) is NOT her — different researcher. Masters student, likely pre-publication."
