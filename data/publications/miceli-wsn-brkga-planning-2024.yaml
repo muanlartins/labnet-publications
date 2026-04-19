@@ -1,0 +1,52 @@
+id: miceli-wsn-brkga-planning-2024
+title: "Optimizing Wireless Sensor Network Planning: Integrating Biased Random-Key Genetic Algorithm and Local Branching for Scalable Solutions"
+authors:
+  - name: "Almir Monteiro"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Diego Brandão"
+    position: 2
+    affiliation: "CEFET/RJ"
+  - name: "Felipe da Rocha Henriques"
+    position: 3
+    affiliation: "CEFET/RJ"
+  - name: "Claudio M. de Farias"
+    position: 4
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Pedro Henrique González"
+    position: 5
+    orcid: "0000-0003-0057-7670"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2024
+month: 7
+date: "2024-07-08"
+type: conference_paper
+language: en
+venue:
+  name: "2024 27th International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "27th International Conference on Information Fusion"
+  type: conference
+  society: ieee
+areas: [iot, networking, ml]
+tags: [wsn-planning, genetic-algorithm, optimization]
+identifiers:
+  doi: "10.23919/fusion59988.2024.10706491"
+  openalex_id: "W4403331854"
+  dblp_key: "conf/fusion/JuniorBHFS24"
+url: "https://doi.org/10.23919/fusion59988.2024.10706491"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4403331854"
+    source_id: "W4403331854"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/conf/fusion/JuniorBHFS24"
+    source_id: "conf/fusion/JuniorBHFS24"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

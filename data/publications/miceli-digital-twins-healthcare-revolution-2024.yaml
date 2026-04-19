@@ -1,0 +1,39 @@
+id: miceli-digital-twins-healthcare-revolution-2024
+title: "Could digital twins be the next revolution in healthcare?"
+authors:
+  - name: "Leonardo El-Warrak"
+    position: 1
+    orcid: "0009-0005-5229-1094"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2024
+month: 11
+date: "2024-11-27"
+type: review
+language: en
+venue:
+  name: "European Journal of Public Health"
+  short_name: "EJPH"
+  full_name: "European Journal of Public Health"
+  type: journal
+  society: other
+publisher: "Oxford University Press"
+areas: [e-health, iot]
+tags: [digital-twin, healthcare]
+identifiers:
+  doi: "10.1093/eurpub/ckae191"
+  openalex_id: "W4404752057"
+url: "https://doi.org/10.1093/eurpub/ckae191"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4404752057"
+    source_id: "W4404752057"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

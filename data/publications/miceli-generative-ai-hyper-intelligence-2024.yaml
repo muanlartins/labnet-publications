@@ -1,0 +1,59 @@
+id: miceli-generative-ai-hyper-intelligence-2024
+title: "Challenges and Emerging Issues for Generative AI and Hyper Intelligence"
+authors:
+  - name: "Jianhua Ma"
+    position: 1
+    affiliation: "Hosei University"
+    is_corresponding: true
+  - name: "Qun Jin"
+    position: 2
+    affiliation: "Waseda University"
+  - name: "Hui-Huang Hsu"
+    position: 3
+    affiliation: "Tamkang University"
+  - name: "John Paul C. Vergara"
+    position: 4
+    affiliation: "Ateneo de Manila University"
+  - name: "Antonio Guerrieri"
+    position: 5
+    affiliation: "ICAR-CNR"
+  - name: "Claudio Miceli"
+    position: 6
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Ao Guo"
+    position: 7
+    affiliation: "Nagoya University"
+authors_labnet: [claudio-miceli]
+year: 2024
+month: 11
+date: "2024-11-05"
+type: conference_paper
+language: en
+venue:
+  name: "2024 IEEE Cyber Science and Technology Congress (CyberSciTech)"
+  short_name: "CyberSciTech"
+  full_name: "IEEE Cyber Science and Technology Congress 2024"
+  type: conference
+  society: ieee
+pages: "258-265"
+areas: [ai, ml]
+tags: [generative-ai, position-paper]
+identifiers:
+  doi: "10.1109/cyberscitech64112.2024.00048"
+  openalex_id: "W4405602119"
+  dblp_key: "conf/cyberscitech/MaJHVGFG24"
+url: "https://doi.org/10.1109/cyberscitech64112.2024.00048"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4405602119"
+    source_id: "W4405602119"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/conf/cyberscitech/MaJHVGFG24"
+    source_id: "conf/cyberscitech/MaJHVGFG24"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

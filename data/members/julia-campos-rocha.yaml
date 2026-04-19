@@ -8,11 +8,11 @@ current_program:
   degree_level: phd
   program: "Engenharia de Software"
   institution: "PESC/COPPE/UFRJ"
-  started_year: null
+  started_year: 2023
   expected_year: null
 research_areas: [se]
-bio_en: "PhD student in Software Engineering at PESC/COPPE/UFRJ."
-bio_pt: "Doutoranda em Engenharia de Software no PESC/COPPE/UFRJ."
+bio_en: "PhD student in Software Engineering at PESC/COPPE/UFRJ (entered 2023). Master's in Energy Planning (PPE/UFRJ, 2021)."
+bio_pt: "Doutoranda em Engenharia de Software no PESC/COPPE/UFRJ (ingresso em 2023). Mestre em Planejamento Energético (PPE/UFRJ, 2021)."
 photo_url: "https://labnet.nce.ufrj.br/images/pessoas/Julia Campos Rocha.jpeg"
 profiles:
   lattes_id: "9807616041893235"
@@ -20,7 +20,9 @@ profiles:
   orcid: null
   scholar_id: null
   linkedin: "https://www.linkedin.com/in/juliacamposrocha/"
+  email: "juliacampos@cos.ufrj.br"
 research_since: null
-last_research_date: null
+last_research_date: "2026-04-19"
 last_verified: "2026-04-19"
 verified_by: claude
+notes: "No publications found in OpenAlex / DBLP / SBC SOL under Software Engineering as of 2026-04-19. Her earlier Energy Planning master's work is out of scope. ORCID not discoverable — needs a future pass once she has her first CS publication."

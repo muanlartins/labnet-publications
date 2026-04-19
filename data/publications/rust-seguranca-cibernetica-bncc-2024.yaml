@@ -1,0 +1,52 @@
+id: rust-seguranca-cibernetica-bncc-2024
+title: "Segurança Cibernética na Base Nacional Comum Curricular – Uma proposta de abordagem de Criptografia na Educação Básica"
+title_en: "Cybersecurity in the National Curriculum — A Proposal for Teaching Cryptography in Basic Education"
+authors:
+  - name: "Raquel Moreira Machado Fernandes"
+    position: 1
+    orcid: "0000-0001-7643-6925"
+    affiliation: "Colégio Pedro II"
+  - name: "Cláudia Lage Rebello da Motta"
+    position: 2
+    orcid: "0000-0002-4069-1462"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luiz Fernando Rust da Costa Carmo"
+    position: 3
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [luiz-fernando-rust]
+year: 2024
+month: 3
+date: "2024-03-13"
+type: symposium_paper
+language: pt
+venue:
+  name: "Anais do I Simpósio Brasileiro de Computação na Educação Básica (SBC-EB 2024)"
+  short_name: "SBC-EB"
+  full_name: "1st Brazilian Symposium on Computing in Basic Education"
+  type: symposium
+  society: sbc
+location:
+  country: "Brazil"
+  region: br
+areas: [education, cryptography, security]
+tags: [computing-education, cryptography-teaching, BNCC]
+identifiers:
+  doi: "10.5753/sbceb.2024.1743"
+  openalex_id: "W4399398046"
+  sbc_sol_id: "sbceb/2024/1743"
+url: "https://doi.org/10.5753/sbceb.2024.1743"
+pdf_url: "https://sol.sbc.org.br/index.php/sbceb/article/download/28675/28479"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4399398046"
+    source_id: "W4399398046"
+    fetched_at: "2026-04-19"
+  - source: sbc_sol
+    url: "https://sol.sbc.org.br/index.php/sbceb/article/view/1743"
+    source_id: "sbceb/2024/1743"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

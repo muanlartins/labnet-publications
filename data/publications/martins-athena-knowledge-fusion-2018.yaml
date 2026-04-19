@@ -1,0 +1,43 @@
+id: martins-athena-knowledge-fusion-2018
+title: "Athena: A knowledge fusion algorithm for the internet of things"
+authors:
+  - name: "Gabriel Martins de Oliveira Costa"
+    position: 1
+    member_id: gabriel-martins
+    orcid: "0000-0002-3353-2535"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luci Pirmez"
+    position: 3
+    orcid: "0000-0002-0925-175X"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [gabriel-martins, claudio-miceli]
+year: 2018
+month: 10
+date: "2018-10-25"
+type: conference_paper
+language: en
+venue:
+  name: "Proceedings of the 14th ACM International Symposium on QoS and Security for Wireless and Mobile Networks (Q2SWinet '18)"
+  short_name: "Q2SWinet"
+  full_name: "14th ACM International Symposium on QoS and Security for Wireless and Mobile Networks"
+  type: symposium
+  society: acm
+areas: [iot, distributed, ml]
+tags: [knowledge-fusion]
+identifiers:
+  doi: "10.1145/3267129.3267141"
+  openalex_id: "W2898274463"
+url: "https://doi.org/10.1145/3267129.3267141"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W2898274463"
+    source_id: "W2898274463"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

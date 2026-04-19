@@ -1,0 +1,59 @@
+id: rust-autoencoder-bess-cyberattacks-2024
+title: "Autoencoder-based Approach to Detect Stealth Cyberattacks in Battery Energy Storage Systems"
+authors:
+  - name: "Mariana Luiza Flavio"
+    position: 1
+    orcid: "0009-0009-9477-7163"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Charles B. Prado"
+    position: 2
+    orcid: "0000-0003-3119-9772"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Luiz Fernando Rust da Costa Carmo"
+    position: 3
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Alan Oliveira de Sá"
+    position: 4
+    orcid: "0000-0001-6311-9672"
+    affiliation: "University of Lisbon"
+  - name: "Paolo Ferrari"
+    position: 5
+    orcid: "0000-0002-6349-4410"
+    affiliation: "University of Brescia"
+  - name: "Marco Pasetti"
+    position: 6
+    orcid: "0000-0001-8093-7925"
+    affiliation: "University of Brescia"
+authors_labnet: [luiz-fernando-rust]
+year: 2024
+month: 5
+date: "2024-05-29"
+type: workshop_paper
+language: en
+venue:
+  name: "2024 IEEE International Workshop on Metrology for Industry 4.0 & IoT (MetroInd4.0 & IoT)"
+  short_name: "MetroInd4.0 & IoT"
+  full_name: "IEEE International Workshop on Metrology for Industry 4.0 & IoT 2024"
+  type: workshop
+  society: ieee
+areas: [security, ml, energy]
+tags: [autoencoder, battery-storage, intrusion-detection]
+identifiers:
+  doi: "10.1109/metroind4.0iot61288.2024.10584189"
+  openalex_id: "W4400449801"
+  dblp_key: "conf/metroi/FlavioPCSFP24"
+url: "https://doi.org/10.1109/metroind4.0iot61288.2024.10584189"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4400449801"
+    source_id: "W4400449801"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/conf/metroi/FlavioPCSFP24"
+    source_id: "conf/metroi/FlavioPCSFP24"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

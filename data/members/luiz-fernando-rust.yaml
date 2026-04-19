@@ -1,9 +1,14 @@
 id: luiz-fernando-rust
 name: Luiz Fernando Rust
+full_name: Luiz Fernando Rust da Costa Carmo
 aliases:
   - Luiz Fernando Rust da Costa Carmo
-  - L. F. R. C. Carmo
+  - Luiz F. Rust da Costa Carmo
   - Luiz F. R. C. Carmo
+  - Luiz F. R. da Costa Carmo
+  - Luiz Fernando Rust C. Carmo
+  - Luiz F. Rust
+  - L. F. R. C. Carmo
 role: professor
 status: active
 affiliation: "PESC/COPPE/UFRJ"
@@ -13,20 +18,21 @@ education:
     field: Informática
     institution: "Université Toulouse III Paul Sabatier"
     year: null
-research_areas: []
-bio_en: "Research professor at PESC/COPPE/UFRJ. PhD from Université Toulouse III Paul Sabatier."
-bio_pt: "Professor pesquisador do PESC/COPPE/UFRJ. Doutor em Informática pela Université Toulouse III Paul Sabatier."
+research_areas: [security, cryptography, ml, distributed]
+bio_en: "Research professor at PESC/COPPE/UFRJ (also affiliated with Inmetro). PhD from Université Toulouse III Paul Sabatier. Research focus: cybersecurity of cyber-physical systems, critical infrastructure protection, applied machine learning, and computing education."
+bio_pt: "Professor pesquisador do PESC/COPPE/UFRJ (também afiliado ao Inmetro). Doutor em Informática pela Université Toulouse III Paul Sabatier. Foco de pesquisa: cibersegurança de sistemas ciberfísicos, proteção de infraestrutura crítica, aprendizado de máquina aplicado e educação em computação."
 photo_url: "https://labnet.nce.ufrj.br/images/pessoas/rust.jpg"
 profiles:
   lattes_id: "8119785638200345"
   lattes_url: "http://lattes.cnpq.br/8119785638200345"
-  orcid: null
+  orcid: "0000-0001-6131-7771"
   scholar_id: "FBxMfWoAAAAJ"
   scholar_url: "https://scholar.google.com.br/citations?hl=en&user=FBxMfWoAAAAJ&view_op=list_works&sortby=pubdate"
-  dblp_pid: null
-  dblp_url: null
-  openalex_id: null
-research_since: null
-last_research_date: null
+  dblp_pid: "50/943"
+  dblp_url: "https://dblp.org/pid/50/943"
+  openalex_id: "A5041466653"
+research_since: "2024-01-01"
+last_research_date: "2026-04-19"
 last_verified: "2026-04-19"
 verified_by: claude
+notes: "Dual affiliation: UFRJ/COPPE + Instituto Nacional de Metrologia (Inmetro). OpenAlex A5041466653 is the canonical record. 123 works total; research_since capped at 2024-01-01 for this initial ingest — older works to be backfilled in future passes."

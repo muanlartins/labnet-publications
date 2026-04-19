@@ -1,0 +1,57 @@
+id: caldas-hephaestus-fusion-2016
+title: "Hephaestus: A multisensor data fusion algorithm for multiple applications on wireless sensor networks"
+authors:
+  - name: "Gabriel R. Caldas de Aquino"
+    position: 1
+    member_id: gabriel-caldas
+    orcid: "0009-0001-8481-6036"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luci Pirmez"
+    position: 2
+    orcid: "0000-0002-0925-175X"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 3
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Flavia C. Delicato"
+    position: 4
+    orcid: "0000-0001-5334-8279"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Paulo F. Pires"
+    position: 5
+    orcid: "0000-0001-5064-4793"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [gabriel-caldas, claudio-miceli]
+year: 2016
+month: 7
+date: "2016-07-05"
+type: conference_paper
+language: en
+venue:
+  name: "2016 19th International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "19th International Conference on Information Fusion"
+  type: conference
+  society: ieee
+pages: "59-66"
+areas: [iot, distributed, ml]
+tags: [data-fusion, wireless-sensor-networks]
+identifiers:
+  openalex_id: "W2515252293"
+  dblp_key: "conf/fusion/AquinoPFDP16"
+url: "https://ieeexplore.ieee.org/document/7527870/"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W2515252293"
+    source_id: "W2515252293"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/conf/fusion/AquinoPFDP16"
+    source_id: "conf/fusion/AquinoPFDP16"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "No DOI issued — IEEE Xplore link only."

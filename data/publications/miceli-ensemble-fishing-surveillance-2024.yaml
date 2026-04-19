@@ -1,0 +1,49 @@
+id: miceli-ensemble-fishing-surveillance-2024
+title: "Ensemble Learning Approaches for Detecting Fishing Activity in Maritime Surveillance: A Performance Evaluation"
+authors:
+  - name: "Vinicius D. do Nascimento"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Diego Leonel Cadette Dutra"
+    position: 3
+    orcid: "0000-0003-4262-7242"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Tiago A. O. Alves"
+    position: 4
+    affiliation: "Universidade do Estado do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2024
+month: 7
+date: "2024-07-08"
+type: conference_paper
+language: en
+venue:
+  name: "2024 27th International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "27th International Conference on Information Fusion"
+  type: conference
+  society: ieee
+areas: [ml, ai, iot]
+tags: [ensemble-learning, maritime-surveillance, fishing-detection]
+identifiers:
+  doi: "10.23919/fusion59988.2024.10706287"
+  openalex_id: "W4403331807"
+  dblp_key: "conf/fusion/NascimentoFDA24"
+url: "https://doi.org/10.23919/fusion59988.2024.10706287"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4403331807"
+    source_id: "W4403331807"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/conf/fusion/NascimentoFDA24"
+    source_id: "conf/fusion/NascimentoFDA24"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

@@ -2,6 +2,7 @@ id: marcos-araujo
 name: Marcos Araújo
 aliases:
   - Marcos Araujo
+  - M. V. M. Araujo
 role: phd_student
 status: active
 affiliation: "PESC/COPPE/UFRJ"
@@ -24,6 +25,7 @@ profiles:
   github: "https://github.com/marcosaraujomvma"
   linkedin: "https://linkedin.com/in/marcos-araujo-m-sc-451a5649"
 research_since: null
-last_research_date: null
+last_research_date: "2026-04-19"
 last_verified: "2026-04-19"
 verified_by: claude
+notes: "No publications cleanly matched to this person in OpenAlex. Gabriel Martins's Scholar profile lists a co-author 'M. V. M. Araujo' on 'Heimdall: a plataforma to empower common IoT services' with Claudio Miceli — possibly the same person, but lacks DOI / independent confirmation. Flag for human verification on next pass; GitHub handle 'marcosaraujomvma' is consistent with 'M. V. M. Araujo'."

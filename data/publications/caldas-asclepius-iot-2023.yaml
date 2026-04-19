@@ -1,0 +1,44 @@
+id: caldas-asclepius-iot-2023
+title: "Asclepius: Data Quality Framework for IoT"
+authors:
+  - name: "Gabriel R. Caldas de Aquino"
+    position: 1
+    member_id: gabriel-caldas
+    orcid: "0009-0001-8481-6036"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [gabriel-caldas, claudio-miceli]
+year: 2023
+month: 10
+date: "2023-10-30"
+type: conference_paper
+language: en
+venue:
+  name: "Proceedings of the 13th ACM Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications (DIVANet '23)"
+  short_name: "DIVANet"
+  full_name: "13th ACM Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications"
+  type: symposium
+  society: acm
+areas: [iot, distributed, networking]
+tags: [data-quality, iot-framework]
+identifiers:
+  doi: "10.1145/3616392.3623407"
+  openalex_id: "W4388021856"
+  dblp_key: "conf/mswim/AquinoF23"
+url: "https://doi.org/10.1145/3616392.3623407"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4388021856"
+    source_id: "W4388021856"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/conf/mswim/AquinoF23"
+    source_id: "conf/mswim/AquinoF23"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

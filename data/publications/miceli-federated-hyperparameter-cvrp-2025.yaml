@@ -1,0 +1,51 @@
+id: miceli-federated-hyperparameter-cvrp-2025
+title: "Federated Inspired Hyperparameter Aggregation for CVRP"
+authors:
+  - name: "Natascha Cardoso da Fonseca"
+    position: 1
+    orcid: "0000-0003-0148-5313"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Jersey Heitor da Silva Maués"
+    position: 2
+    orcid: "0000-0001-5570-3158"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Alain Giron"
+    position: 3
+    orcid: "0000-0003-0888-6312"
+    affiliation: "Université Paris Cité"
+  - name: "Pedro Henrique González"
+    position: 4
+    orcid: "0000-0003-0057-7670"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 5
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 7
+date: "2025-07-07"
+type: conference_paper
+language: en
+venue:
+  name: "2025 28th International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "28th International Conference on Information Fusion"
+  type: conference
+  society: ieee
+areas: [ml, ai, theory]
+tags: [federated-learning, cvrp, hyperparameter-optimization]
+identifiers:
+  doi: "10.23919/fusion65864.2025.11124112"
+  openalex_id: "W4413679595"
+url: "https://doi.org/10.23919/fusion65864.2025.11124112"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4413679595"
+    source_id: "W4413679595"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Co-author 'Alain Giron' is a Paris-based researcher — not a LabNet member and not the same person as André Giron."

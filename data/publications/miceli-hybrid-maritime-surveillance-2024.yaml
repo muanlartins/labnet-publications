@@ -1,0 +1,52 @@
+id: miceli-hybrid-maritime-surveillance-2024
+title: "A Hybrid Framework for Maritime Surveillance: Detecting Illegal Activities through Vessel Behaviors and Expert Rules Fusion"
+authors:
+  - name: "Vinicius D. do Nascimento"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Tiago A. O. Alves"
+    position: 2
+    affiliation: "Universidade do Estado do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 3
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Diego Leonel Cadette Dutra"
+    position: 4
+    orcid: "0000-0003-4262-7242"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2024
+month: 8
+date: "2024-08-30"
+type: journal_article
+language: en
+venue:
+  name: "Sensors"
+  short_name: "Sensors"
+  full_name: "Sensors (MDPI)"
+  type: journal
+  society: mdpi
+volume: "24"
+issue: "17"
+pages: "5623"
+publisher: "MDPI"
+areas: [ml, ai, iot]
+tags: [maritime-surveillance, vessel-behavior, expert-systems]
+identifiers:
+  doi: "10.3390/s24175623"
+  openalex_id: "W4402053604"
+url: "https://doi.org/10.3390/s24175623"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4402053604"
+    source_id: "W4402053604"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/journals/sensors/NascimentoAFD24"
+    source_id: "journals/sensors/NascimentoAFD24"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

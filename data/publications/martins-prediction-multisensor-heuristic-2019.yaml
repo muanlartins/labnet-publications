@@ -1,0 +1,51 @@
+id: martins-prediction-multisensor-heuristic-2019
+title: "A Prediction-Based Multisensor Heuristic for the Internet of Things"
+authors:
+  - name: "Gabriel Martins de Oliveira Costa"
+    position: 1
+    member_id: gabriel-martins
+    orcid: "0000-0002-3353-2535"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luis Filipe Kopp"
+    position: 2
+    orcid: "0000-0002-7042-420X"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Jessica Genta"
+    position: 3
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luiz F. R. C. Carmo"
+    position: 4
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Claudio M. de Farias"
+    position: 5
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [gabriel-martins, luiz-fernando-rust, claudio-miceli]
+year: 2019
+month: 11
+date: "2019-11-25"
+type: conference_paper
+language: en
+venue:
+  name: "Proceedings of the 15th ACM International Symposium on QoS and Security for Wireless and Mobile Networks (Q2SWinet '19)"
+  short_name: "Q2SWinet"
+  full_name: "15th ACM International Symposium on QoS and Security for Wireless and Mobile Networks"
+  type: symposium
+  society: acm
+areas: [iot, distributed, networking]
+tags: [prediction, multisensor]
+identifiers:
+  doi: "10.1145/3345837.3355957"
+  openalex_id: "W2989975591"
+url: "https://doi.org/10.1145/3345837.3355957"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W2989975591"
+    source_id: "W2989975591"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

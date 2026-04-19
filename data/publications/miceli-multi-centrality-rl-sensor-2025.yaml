@@ -1,0 +1,53 @@
+id: miceli-multi-centrality-rl-sensor-2025
+title: "A Hybrid Multi-Centrality and Reinforcement Learning Approach for Sensor Allocation in Wireless Sensor Networks"
+authors:
+  - name: "Rafael Schneider"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio André da Silva Alves"
+    position: 2
+    orcid: "0000-0002-6777-2537"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Laura Silva de Assis"
+    position: 3
+    orcid: "0000-0003-3081-9722"
+    affiliation: "CEFET-MG"
+  - name: "Claudio M. de Farias"
+    position: 4
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Israel Mendonça"
+    position: 5
+    orcid: "0000-0001-6819-4305"
+    affiliation: "Kumamoto University"
+  - name: "Pedro Henrique González"
+    position: 6
+    orcid: "0000-0003-0057-7670"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 7
+date: "2025-07-07"
+type: conference_paper
+language: en
+venue:
+  name: "2025 28th International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "28th International Conference on Information Fusion"
+  type: conference
+  society: ieee
+areas: [iot, networking, ml]
+tags: [reinforcement-learning, sensor-allocation, wireless-sensor-networks]
+identifiers:
+  doi: "10.23919/fusion65864.2025.11124024"
+  openalex_id: "W4413680146"
+url: "https://doi.org/10.23919/fusion65864.2025.11124024"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4413680146"
+    source_id: "W4413680146"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

@@ -1,0 +1,56 @@
+id: caldas-data-fusion-wsn-2019
+title: "A Data Fusion Algorithm for Multiple Applications in Wireless Sensor Networks"
+authors:
+  - name: "Gabriel R. Caldas de Aquino"
+    position: 1
+    member_id: gabriel-caldas
+    orcid: "0009-0001-8481-6036"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luci Pirmez"
+    position: 2
+    orcid: "0000-0002-0925-175X"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 3
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Flavia C. Delicato"
+    position: 4
+    orcid: "0000-0001-5334-8279"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Paulo F. Pires"
+    position: 5
+    orcid: "0000-0001-5064-4793"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [gabriel-caldas, claudio-miceli]
+year: 2019
+type: book_chapter
+language: en
+venue:
+  name: "Mission-Oriented Sensor Networks and Systems: Art and Science"
+  short_name: "Studies in Systems, Decision and Control"
+  full_name: "Studies in Systems, Decision and Control, Vol. 163"
+  type: book
+  society: springer
+pages: "533-568"
+publisher: "Springer International Publishing"
+areas: [iot, distributed, networking]
+tags: [data-fusion, wireless-sensor-networks]
+identifiers:
+  doi: "10.1007/978-3-319-91146-5_14"
+  openalex_id: "W2973250596"
+  dblp_key: "books/sp/19/AquinoPFDP19"
+url: "https://doi.org/10.1007/978-3-319-91146-5_14"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W2973250596"
+    source_id: "W2973250596"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/books/sp/19/AquinoPFDP19"
+    source_id: "books/sp/19/AquinoPFDP19"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
