@@ -1,0 +1,35 @@
+id: pedro-boechat
+name: Pedro Boechat
+full_name: Pedro Tubenchlak Boechat
+aliases:
+  - Pedro Tubenchlak Boechat
+  - P. T. Boechat
+role: masters_student
+status: active
+affiliation: "PESC/COPPE/UFRJ"
+advisor_id: null
+current_program:
+  degree_level: masters
+  program: "Engenharia de Software"
+  institution: "PESC/COPPE/UFRJ"
+  started_year: null
+  expected_year: null
+research_areas: [se]
+bio_en: "Master's student in Software Engineering at PESC/COPPE/UFRJ."
+bio_pt: "Mestrando em Engenharia de Software no PESC/COPPE/UFRJ."
+photo_url: "https://labnet.nce.ufrj.br/images/pessoas/pedro_boechat - Pedro Boechat.jpg"
+profiles:
+  lattes_id: "8839378332786627"
+  lattes_url: "http://lattes.cnpq.br/8839378332786627"
+  orcid: "0000-0002-5669-0755"
+  scholar_id: "JOoxobwAAAAJ"
+  scholar_url: "https://scholar.google.com.br/citations?user=JOoxobwAAAAJ"
+  dblp_pid: null
+  openalex_id: "A5097221939"
+  github: "https://github.com/pedroboechat/"
+  linkedin: "https://www.linkedin.com/in/pedroboechat/"
+research_since: null
+last_research_date: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+notes: "Seeded via OpenAlex lookup on 2026-04-19 — 1 work found (W4368232802)."

@@ -1,0 +1,69 @@
+id: boechat-device-uptimes-2023
+title: "A Large Scale Characterization of Device Uptimes"
+authors:
+  - name: "Mateus Nogueira"
+    position: 1
+    orcid: "0000-0001-8851-8987"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Erica da Cunha Ferreira"
+    position: 2
+    orcid: "0009-0002-1323-6752"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Pedro Tubenchlak Boechat"
+    position: 3
+    member_id: pedro-boechat
+    orcid: "0000-0002-5669-0755"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Felipe Assis"
+    position: 4
+    orcid: "0009-0001-0113-6239"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Estevão Rabello"
+    position: 5
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Rafael Teixeira do Nascimento"
+    position: 6
+    orcid: "0009-0000-3845-9157"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Daniel Sadoc Menasché"
+    position: 7
+    orcid: "0000-0002-8953-4003"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Geraldo Xexéo"
+    position: 8
+    orcid: "0000-0003-3975-9076"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Abhishek Ramchandran"
+    position: 9
+    orcid: "0009-0002-9228-1702"
+    affiliation: "Siemens (United States)"
+  - name: "Katinka Wolter"
+    position: 10
+    orcid: "0000-0002-8630-0869"
+    affiliation: "Freie Universität Berlin"
+authors_labnet: [pedro-boechat]
+year: 2023
+month: 5
+date: "2023-05-03"
+type: journal_article
+language: en
+venue:
+  name: "IEEE Transactions on Emerging Topics in Computing"
+  short_name: "IEEE TETC"
+  full_name: "IEEE Transactions on Emerging Topics in Computing"
+  type: journal
+  society: ieee
+areas: [performance, distributed]
+tags: [uptime, reliability, measurement-study]
+identifiers:
+  doi: "10.1109/tetc.2023.3271315"
+  openalex_id: "W4368232802"
+url: "https://doi.org/10.1109/tetc.2023.3271315"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4368232802"
+    source_id: "W4368232802"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

@@ -1,0 +1,27 @@
+id: brenno-castro
+name: Brenno Alves de Castro
+role: undergraduate_researcher
+status: active
+affiliation: "NCE/UFRJ"
+advisor_id: null
+current_program:
+  degree_level: undergraduate
+  program: "Ciência da Computação"
+  institution: "UFRJ"
+  started_year: null
+  expected_year: null
+research_areas: []
+bio_en: "Undergraduate researcher in Computer Science at UFRJ."
+bio_pt: "Aluno de Iniciação Científica, graduando em Ciência da Computação pela UFRJ."
+photo_url: "https://labnet.nce.ufrj.br/images/pessoas/brenno.png"
+profiles:
+  lattes_id: "1328706438544498"
+  lattes_url: "http://lattes.cnpq.br/1328706438544498"
+  orcid: null
+  scholar_id: null
+  github: "https://github.com/brennoac"
+  linkedin: "https://www.linkedin.com/in/brenno-alves-de-castro-575358264/"
+research_since: null
+last_research_date: null
+last_verified: "2026-04-19"
+verified_by: claude

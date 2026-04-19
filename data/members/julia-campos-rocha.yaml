@@ -1,0 +1,26 @@
+id: julia-campos-rocha
+name: Julia Campos Rocha
+role: phd_student
+status: active
+affiliation: "PESC/COPPE/UFRJ"
+advisor_id: null
+current_program:
+  degree_level: phd
+  program: "Engenharia de Software"
+  institution: "PESC/COPPE/UFRJ"
+  started_year: null
+  expected_year: null
+research_areas: [se]
+bio_en: "PhD student in Software Engineering at PESC/COPPE/UFRJ."
+bio_pt: "Doutoranda em Engenharia de Software no PESC/COPPE/UFRJ."
+photo_url: "https://labnet.nce.ufrj.br/images/pessoas/Julia Campos Rocha.jpeg"
+profiles:
+  lattes_id: "9807616041893235"
+  lattes_url: "http://lattes.cnpq.br/9807616041893235"
+  orcid: null
+  scholar_id: null
+  linkedin: "https://www.linkedin.com/in/juliacamposrocha/"
+research_since: null
+last_research_date: null
+last_verified: "2026-04-19"
+verified_by: claude
