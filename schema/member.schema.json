@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://labnet-publications/schemas/member.json",
+  "title": "Member",
+  "description": "A person affiliated with LabNet. Controlled vocabularies (role, status, areas) are injected from data/tags.yaml at validation time.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "role", "status", "affiliation"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Globally unique, kebab-case. Must equal the YAML filename stem."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name — how the person is commonly addressed."
+    },
+    "full_name": {
+      "type": "string",
+      "description": "Formal name as it appears on official documents / publications."
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Alternate name spellings used in publications (for deduplication / discovery)."
+    },
+    "role": { "type": "string" },
+    "status": { "type": "string", "enum": ["active", "alumni", "visiting"] },
+    "affiliation": { "type": "string" },
+    "title": {
+      "type": "string",
+      "description": "Highest completed degree or current title (e.g., PhD, MSc, BSc, Eng., Prof.)."
+    },
+    "advisor_id": {
+      "type": ["string", "null"],
+      "description": "For students: the LabNet member id of their advisor."
+    },
+    "coadvisor_id": {
+      "type": ["string", "null"]
+    },
+    "current_program": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "degree_level": { "type": "string", "enum": ["phd", "masters", "undergraduate", "postdoc"] },
+        "program": { "type": "string" },
+        "institution": { "type": "string" },
+        "started_year": { "type": ["integer", "null"] },
+        "expected_year": { "type": ["integer", "null"] }
+      }
+    },
+    "education": {
+      "type": "array",
+      "description": "Past completed degrees, newest first.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["degree", "institution"],
+        "properties": {
+          "degree": { "type": "string" },
+          "field": { "type": "string" },
+          "institution": { "type": "string" },
+          "year": { "type": ["integer", "null"] }
+        }
+      }
+    },
+    "research_areas": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "bio_en": { "type": "string" },
+    "bio_pt": { "type": "string" },
+    "photo_url": { "type": "string" },
+    "joined_year": { "type": ["integer", "null"] },
+    "profiles": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "lattes_id": { "type": ["string", "null"], "description": "Numeric Lattes ID (the path segment after lattes.cnpq.br/)." },
+        "lattes_url": { "type": ["string", "null"], "format": "uri" },
+        "orcid": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[0-9X]$" },
+        "scholar_id": { "type": ["string", "null"] },
+        "scholar_url": { "type": ["string", "null"], "format": "uri" },
+        "dblp_pid": { "type": ["string", "null"], "description": "DBLP person ID, e.g., '123/4567' (the path segment after dblp.org/pid/)." },
+        "dblp_url": { "type": ["string", "null"], "format": "uri" },
+        "openalex_id": { "type": ["string", "null"], "description": "OpenAlex author ID, e.g., 'A1234567890'." },
+        "semantic_scholar_id": { "type": ["string", "null"] },
+        "github": { "type": ["string", "null"], "format": "uri" },
+        "linkedin": { "type": ["string", "null"], "format": "uri" },
+        "website": { "type": ["string", "null"], "format": "uri" },
+        "email": { "type": ["string", "null"], "format": "email" }
+      }
+    },
+    "research_since": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Optional floor date — refresh skill should not pull publications older than this. Useful for capping scope on professors with decades of prior work."
+    },
+    "last_research_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Date through which publications have been ingested for this member. Refresh skill queries sources for items with publication_date > this. null = never researched; next refresh does a full pull (optionally bounded by research_since)."
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the member record itself (profile links, role, status) was last verified."
+    },
+    "verified_by": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

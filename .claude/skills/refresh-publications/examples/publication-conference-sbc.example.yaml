@@ -1,0 +1,55 @@
+# Example: SBC conference paper (Brazilian venue, often PT title, sourced from SOL).
+
+id: boechat-llm-test-generation-2024
+title: "Geração de testes unitários com modelos de linguagem de larga escala"
+title_en: "Unit test generation with large language models"
+
+authors:
+  - name: "Pedro Boechat"
+    position: 1
+    member_id: pedro-boechat
+    affiliation: "PESC/COPPE/UFRJ"
+  - name: "Gabriel Caldas"
+    position: 2
+    member_id: gabriel-caldas
+    affiliation: "PESC/COPPE/UFRJ"
+
+authors_labnet: [pedro-boechat, gabriel-caldas]
+
+year: 2024
+type: conference_paper
+language: pt
+
+venue:
+  name: "Simpósio Brasileiro de Engenharia de Software"
+  short_name: "SBES"
+  full_name: "Simpósio Brasileiro de Engenharia de Software 2024"
+  type: conference
+  edition: "38th"
+  series_id: sbes                   # matches labnet-calendar's series_id
+  society: sbc
+
+location:
+  city: "Curitiba"
+  country: "Brazil"
+  region: br
+
+pages: "123-132"
+areas: [se, se-testing, nlp]
+tags: [llm, unit-testing]
+
+identifiers:
+  sbc_sol_id: "sbes/129456"
+
+url: "https://sol.sbc.org.br/index.php/sbes/article/view/129456"
+pdf_url: "https://sol.sbc.org.br/index.php/sbes/article/view/129456/128765"
+
+sources:
+  - source: sbc_sol
+    url: "https://sol.sbc.org.br/index.php/sbes/article/view/129456"
+    source_id: "sbes/129456"
+    fetched_at: "2026-04-19"
+
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

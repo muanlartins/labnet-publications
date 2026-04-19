@@ -1,0 +1,29 @@
+id: marcos-araujo
+name: Marcos Araújo
+aliases:
+  - Marcos Araujo
+role: phd_student
+status: active
+affiliation: "PESC/COPPE/UFRJ"
+advisor_id: null
+current_program:
+  degree_level: phd
+  program: "Engenharia de Software"
+  institution: "PESC/COPPE/UFRJ"
+  started_year: null
+  expected_year: null
+research_areas: [se]
+bio_en: "PhD student in Software Engineering at PESC/COPPE/UFRJ."
+bio_pt: "Doutorando em Engenharia de Software no PESC/COPPE/UFRJ."
+photo_url: "https://labnet.nce.ufrj.br/images/pessoas/Marcos Araújo.jpg"
+profiles:
+  lattes_id: "2933165577023180"
+  lattes_url: "http://lattes.cnpq.br/2933165577023180"
+  orcid: null
+  scholar_id: null
+  github: "https://github.com/marcosaraujomvma"
+  linkedin: "https://linkedin.com/in/marcos-araujo-m-sc-451a5649"
+research_since: null
+last_research_date: null
+last_verified: "2026-04-19"
+verified_by: claude

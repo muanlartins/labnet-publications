@@ -1,0 +1,32 @@
+id: gabriel-caldas
+name: Gabriel Caldas
+aliases:
+  - Gabriel R. C. A. Caldas
+role: professor
+status: active
+affiliation: "PESC/COPPE/UFRJ"
+title: PhD
+education:
+  - degree: PhD
+    field: "Engenharia de Sistemas e Computação"
+    institution: "Universidade Federal do Rio de Janeiro (UFRJ)"
+    year: null
+research_areas: []
+bio_en: "Research professor at PESC/COPPE/UFRJ. PhD in Systems and Computer Engineering from UFRJ."
+bio_pt: "Professor Pesquisador do PESC/COPPE/UFRJ. Doutor em Engenharia de Sistemas e Computação pela UFRJ."
+photo_url: "https://labnet.nce.ufrj.br/images/pessoas/caldas.jpg"
+profiles:
+  lattes_id: "4613499627488074"
+  lattes_url: "http://lattes.cnpq.br/4613499627488074"
+  orcid: null
+  scholar_id: null
+  scholar_url: null
+  dblp_pid: null
+  dblp_url: null
+  openalex_id: null
+  github: "https://github.com/gabrielrca"
+  linkedin: "https://www.linkedin.com/in/grca/"
+research_since: null
+last_research_date: null
+last_verified: "2026-04-19"
+verified_by: claude

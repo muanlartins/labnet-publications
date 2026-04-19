@@ -1,0 +1,27 @@
+{
+  "name": "labnet-publications",
+  "version": "0.1.0",
+  "description": "Member directory and publication tracker for LabNet (PESC/COPPE/UFRJ) — refreshed by Claude Code from OpenAlex, DBLP, SBC SOL, and ORCID.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "homepage": "https://muanlartins.github.io/labnet-publications",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muanlartins/labnet-publications.git"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "all": "npm run validate && npm run build",
+    "dev": "npm run all && python3 -m http.server 8000 -d web"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

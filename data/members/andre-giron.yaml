@@ -1,0 +1,29 @@
+id: andre-giron
+name: André Vinicius Lobo Giron
+aliases:
+  - Andre Vinicius Lobo Giron
+  - A. V. L. Giron
+role: undergraduate_researcher
+status: active
+affiliation: "UFRJ"
+advisor_id: null
+current_program:
+  degree_level: undergraduate
+  program: "Engenharia de Controle e Automação"
+  institution: "UFRJ"
+  started_year: null
+  expected_year: null
+research_areas: []
+bio_en: "Undergraduate researcher in Control and Automation Engineering at UFRJ."
+bio_pt: "Aluno de Iniciação Científica, graduando em Engenharia de Controle e Automação pela UFRJ."
+profiles:
+  lattes_id: "1748651641316120"
+  lattes_url: "http://lattes.cnpq.br/1748651641316120"
+  orcid: null
+  scholar_id: null
+  github: "https://github.com/alobogiron"
+  linkedin: "https://www.linkedin.com/in/alobogiron"
+research_since: null
+last_research_date: null
+last_verified: "2026-04-19"
+verified_by: claude

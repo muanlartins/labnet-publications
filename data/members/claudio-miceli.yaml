@@ -1,0 +1,43 @@
+id: claudio-miceli
+name: Claudio Miceli
+full_name: Claudio Miceli de Farias
+aliases:
+  - Claudio Miceli de Farias
+  - Cláudio Miceli de Farias
+  - C. M. de Farias
+  - C. Miceli de Farias
+role: professor
+status: active
+affiliation: "PESC/COPPE/UFRJ"
+title: PhD
+advisor_id: null
+coadvisor_id: null
+education:
+  - degree: PhD
+    field: Informática
+    institution: "Universidade Federal do Rio de Janeiro (UFRJ)"
+    year: null
+research_areas: []
+bio_en: "Research professor at PESC/COPPE/UFRJ. PhD in Informatics from UFRJ."
+bio_pt: "Professor Pesquisador do PESC/COPPE/UFRJ. Doutor em Informática pela UFRJ."
+photo_url: "https://labnet.nce.ufrj.br/images/pessoas/miceli.jpg"
+joined_year: null
+profiles:
+  lattes_id: null
+  lattes_url: null
+  orcid: null
+  scholar_id: "S0yCysMAAAAJ"
+  scholar_url: "https://scholar.google.com.br/citations?hl=pt-BR&user=S0yCysMAAAAJ&view_op=list_works&sortby=pubdate"
+  dblp_pid: null
+  dblp_url: null
+  openalex_id: null
+  semantic_scholar_id: null
+  github: null
+  linkedin: null
+  website: null
+  email: null
+research_since: null
+last_research_date: null
+last_verified: "2026-04-19"
+verified_by: claude
+notes: "Primary LabNet PI. Source page (equipe.html) left Lattes / GitHub / LinkedIn as placeholders; refresh skill should discover Lattes ID and ORCID from public sources."

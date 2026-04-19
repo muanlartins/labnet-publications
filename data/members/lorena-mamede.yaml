@@ -1,0 +1,29 @@
+id: lorena-mamede
+name: Lorena Mamede
+aliases:
+  - Lorena Mamede Botelho
+role: masters_student
+status: active
+affiliation: "PESC/COPPE/UFRJ"
+advisor_id: null
+current_program:
+  degree_level: masters
+  program: "Engenharia de Software"
+  institution: "PESC/COPPE/UFRJ"
+  started_year: null
+  expected_year: null
+research_areas: [se]
+bio_en: "Master's student in Software Engineering at PESC/COPPE/UFRJ."
+bio_pt: "Mestranda em Engenharia de Software no PESC/COPPE/UFRJ."
+photo_url: "https://labnet.nce.ufrj.br/images/pessoas/lorena.jpg"
+profiles:
+  lattes_id: "7441215007176760"
+  lattes_url: "http://lattes.cnpq.br/7441215007176760"
+  orcid: null
+  scholar_id: null
+  github: "https://github.com/lmamede/"
+  linkedin: "https://www.linkedin.com/in/lorena-mamede-botelho-38a01411a/"
+research_since: null
+last_research_date: null
+last_verified: "2026-04-19"
+verified_by: claude

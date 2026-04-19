@@ -1,0 +1,32 @@
+# Example: thesis jury (banca de defesa).
+
+id: claudio-miceli-jury-doe-phd-2023
+title: "PhD thesis jury for John Doe (UFRJ 2023)"
+role: thesis_jury
+member_id: claudio-miceli
+year: 2023
+
+related_work:
+  kind: thesis
+  candidate_name: "John Doe"
+  candidate_institution: "PESC/COPPE/UFRJ"
+  title: "Adaptive routing in large-scale IoT networks"
+  advisor: "Luiz Fernando Rust"
+  graduation_year: 2023
+  url: "https://example.org/thesis.pdf"
+
+location:
+  city: "Rio de Janeiro"
+  country: "Brazil"
+  region: br
+
+areas: [iot, networking]
+
+sources:
+  - source: manual
+    fetched_at: "2026-04-19"
+
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Jury members generally aren't in any API — enter manually or extract from Lattes."

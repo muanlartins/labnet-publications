@@ -1,0 +1,153 @@
+# Controlled vocabularies. The validator rejects values not in these lists.
+# Adding a value is a deliberate, human-reviewable change.
+
+# ---------------------------------------------------------------------------
+# Research areas — applied to members (their interests) and publications.
+# Keep this list tight: broad-enough that every publication fits, narrow-enough
+# that the filter pane stays usable.
+# ---------------------------------------------------------------------------
+areas:
+  - { id: networking,    name_en: Networking,             name_pt: Redes }
+  - { id: iot,           name_en: Internet of Things,     name_pt: Internet das Coisas }
+  - { id: distributed,   name_en: Distributed Systems,    name_pt: Sistemas Distribuídos }
+  - { id: embedded,      name_en: Embedded Systems,       name_pt: Sistemas Embarcados }
+  - { id: security,      name_en: Security & Privacy,     name_pt: Segurança e Privacidade }
+  - { id: cryptography,  name_en: Cryptography,           name_pt: Criptografia }
+  - { id: ml,            name_en: Machine Learning,       name_pt: Aprendizado de Máquina }
+  - { id: ai,            name_en: Artificial Intelligence, name_pt: Inteligência Artificial }
+  - { id: nlp,           name_en: Natural Language Processing, name_pt: Processamento de Linguagem Natural }
+  - { id: cv,            name_en: Computer Vision,        name_pt: Visão Computacional }
+  - { id: se,            name_en: Software Engineering,   name_pt: Engenharia de Software }
+  - { id: se-testing,    name_en: Software Testing,       name_pt: Teste de Software }
+  - { id: se-analytics,  name_en: Software Analytics,     name_pt: Análise de Software }
+  - { id: databases,     name_en: Databases,              name_pt: Bancos de Dados }
+  - { id: data-mining,   name_en: Data Mining,            name_pt: Mineração de Dados }
+  - { id: bigdata,       name_en: Big Data,               name_pt: Big Data }
+  - { id: hci,           name_en: Human-Computer Interaction, name_pt: Interação Humano-Computador }
+  - { id: theory,        name_en: Theory & Algorithms,    name_pt: Teoria e Algoritmos }
+  - { id: performance,   name_en: Performance Analysis,   name_pt: Análise de Desempenho }
+  - { id: smart-city,    name_en: Smart Cities,           name_pt: Cidades Inteligentes }
+  - { id: energy,        name_en: Energy Systems,         name_pt: Sistemas de Energia }
+  - { id: e-health,      name_en: e-Health,               name_pt: Saúde Digital }
+  - { id: e-government,  name_en: e-Government,           name_pt: Governo Digital }
+  - { id: blockchain,    name_en: Blockchain & DLT,       name_pt: Blockchain }
+  - { id: education,     name_en: Computing Education,    name_pt: Educação em Computação }
+
+# ---------------------------------------------------------------------------
+# Publication types — the `type` field on a publication must be in this list.
+# ---------------------------------------------------------------------------
+publication_types:
+  - { id: journal_article,    name_en: Journal Article,       name_pt: Artigo em Periódico }
+  - { id: magazine_article,   name_en: Magazine Article,      name_pt: Artigo em Revista }
+  - { id: conference_paper,   name_en: Conference Paper,      name_pt: Artigo em Conferência }
+  - { id: workshop_paper,     name_en: Workshop Paper,        name_pt: Artigo em Workshop }
+  - { id: symposium_paper,    name_en: Symposium Paper,       name_pt: Artigo em Simpósio }
+  - { id: book,               name_en: Book,                  name_pt: Livro }
+  - { id: book_chapter,       name_en: Book Chapter,          name_pt: Capítulo de Livro }
+  - { id: edited_book,        name_en: Edited Book,           name_pt: Livro Organizado }
+  - { id: thesis,             name_en: PhD Thesis,            name_pt: Tese de Doutorado }
+  - { id: dissertation,       name_en: Master's Dissertation, name_pt: Dissertação de Mestrado }
+  - { id: tcc,                name_en: Undergraduate Thesis,  name_pt: Trabalho de Conclusão de Curso }
+  - { id: technical_report,   name_en: Technical Report,      name_pt: Relatório Técnico }
+  - { id: preprint,           name_en: Preprint,              name_pt: Preprint }
+  - { id: abstract,           name_en: Abstract,              name_pt: Resumo }
+  - { id: extended_abstract,  name_en: Extended Abstract,     name_pt: Resumo Estendido }
+  - { id: poster,             name_en: Poster,                name_pt: Pôster }
+  - { id: editorial,          name_en: Editorial,             name_pt: Editorial }
+  - { id: review,             name_en: Review Article,        name_pt: Artigo de Revisão }
+  - { id: patent,             name_en: Patent,                name_pt: Patente }
+  - { id: dataset,            name_en: Dataset,               name_pt: Conjunto de Dados }
+  - { id: software,           name_en: Software Artifact,     name_pt: Software }
+
+# ---------------------------------------------------------------------------
+# Service roles — the `role` field on a service record must be in this list.
+# These are things the person DID that aren't authored works: committee work,
+# advising, invited talks, juries, event organization.
+# ---------------------------------------------------------------------------
+service_roles:
+  - { id: program_committee,       name_en: Program Committee,       name_pt: Comitê de Programa }
+  - { id: organizing_committee,    name_en: Organizing Committee,    name_pt: Comitê Organizador }
+  - { id: steering_committee,      name_en: Steering Committee,      name_pt: Comitê Diretor }
+  - { id: editorial_board,         name_en: Editorial Board,         name_pt: Corpo Editorial }
+  - { id: guest_editor,            name_en: Guest Editor,            name_pt: Editor Convidado }
+  - { id: associate_editor,        name_en: Associate Editor,        name_pt: Editor Associado }
+  - { id: reviewer_journal,        name_en: Journal Reviewer,        name_pt: Revisor de Periódico }
+  - { id: reviewer_conference,     name_en: Conference Reviewer,     name_pt: Revisor de Conferência }
+  - { id: thesis_jury,             name_en: PhD Thesis Jury,         name_pt: Banca de Doutorado }
+  - { id: dissertation_jury,       name_en: Master's Jury,           name_pt: Banca de Mestrado }
+  - { id: qualifying_exam,         name_en: Qualifying Exam Jury,    name_pt: Banca de Qualificação }
+  - { id: tcc_jury,                name_en: Undergrad Jury,          name_pt: Banca de TCC }
+  - { id: advising_phd,            name_en: PhD Advising,            name_pt: Orientação de Doutorado }
+  - { id: advising_masters,        name_en: Master's Advising,       name_pt: Orientação de Mestrado }
+  - { id: advising_tcc,            name_en: Undergrad Advising,      name_pt: Orientação de TCC }
+  - { id: advising_ic,             name_en: Research Apprentice Advising, name_pt: Orientação de IC }
+  - { id: coadvising_phd,          name_en: PhD Co-Advising,         name_pt: Co-orientação de Doutorado }
+  - { id: coadvising_masters,      name_en: Master's Co-Advising,    name_pt: Co-orientação de Mestrado }
+  - { id: invited_talk,            name_en: Invited Talk,            name_pt: Palestra Convidada }
+  - { id: keynote,                 name_en: Keynote,                 name_pt: Palestra Magna }
+  - { id: tutorial,                name_en: Tutorial,                name_pt: Tutorial }
+  - { id: panel,                   name_en: Panel,                   name_pt: Mesa Redonda }
+  - { id: session_chair,           name_en: Session Chair,           name_pt: Presidente de Sessão }
+  - { id: track_chair,             name_en: Track Chair,             name_pt: Presidente de Trilha }
+  - { id: general_chair,           name_en: General Chair,           name_pt: Presidente Geral }
+  - { id: event_organizer,         name_en: Event Organizer,         name_pt: Organizador de Evento }
+  - { id: grant_reviewer,          name_en: Grant Reviewer,          name_pt: Parecerista de Fomento }
+
+# ---------------------------------------------------------------------------
+# Member roles — the `role` field on a member must be in this list.
+# ---------------------------------------------------------------------------
+member_roles:
+  - { id: professor,                 name_en: Professor,                  name_pt: Professor(a) }
+  - { id: professor_associate,       name_en: Associate Professor,        name_pt: Professor(a) Associado(a) }
+  - { id: professor_emeritus,        name_en: Emeritus Professor,         name_pt: Professor(a) Emérito(a) }
+  - { id: postdoc,                   name_en: Postdoctoral Researcher,    name_pt: Pós-doutorando(a) }
+  - { id: phd_student,               name_en: PhD Student,                name_pt: Doutorando(a) }
+  - { id: masters_student,           name_en: Master's Student,           name_pt: Mestrando(a) }
+  - { id: undergraduate_researcher,  name_en: Undergraduate Researcher,   name_pt: Aluno(a) de Iniciação Científica }
+  - { id: tcc_student,               name_en: Undergraduate (TCC),        name_pt: Aluno(a) de TCC }
+  - { id: research_associate,        name_en: Research Associate,         name_pt: Pesquisador(a) Associado(a) }
+  - { id: lab_engineer,              name_en: Lab Engineer,               name_pt: Engenheiro(a) de Laboratório }
+  - { id: alumni,                    name_en: Alumni,                     name_pt: Ex-membro }
+
+# ---------------------------------------------------------------------------
+# Regions — for venue location tags.
+# ---------------------------------------------------------------------------
+regions:
+  - { id: br,     name_en: Brazil,          name_pt: Brasil }
+  - { id: latam,  name_en: Latin America,   name_pt: América Latina }
+  - { id: na,     name_en: North America,   name_pt: América do Norte }
+  - { id: eu,     name_en: Europe,          name_pt: Europa }
+  - { id: asia,   name_en: Asia,            name_pt: Ásia }
+  - { id: oceania, name_en: Oceania,        name_pt: Oceania }
+  - { id: africa, name_en: Africa,          name_pt: África }
+  - { id: global, name_en: Global / Online, name_pt: Global / Online }
+
+# ---------------------------------------------------------------------------
+# Societies — publishers / sponsoring bodies. Used on venues.
+# ---------------------------------------------------------------------------
+societies:
+  - { id: sbc,     name_en: SBC,    full_name: "Sociedade Brasileira de Computação" }
+  - { id: acm,     name_en: ACM,    full_name: "Association for Computing Machinery" }
+  - { id: ieee,    name_en: IEEE,   full_name: "Institute of Electrical and Electronics Engineers" }
+  - { id: usenix,  name_en: USENIX, full_name: "USENIX Association" }
+  - { id: aaai,    name_en: AAAI,   full_name: "Association for the Advancement of Artificial Intelligence" }
+  - { id: iacr,    name_en: IACR,   full_name: "International Association for Cryptologic Research" }
+  - { id: springer, name_en: Springer, full_name: "Springer" }
+  - { id: elsevier, name_en: Elsevier, full_name: "Elsevier" }
+  - { id: wiley,    name_en: Wiley,   full_name: "Wiley" }
+  - { id: mdpi,     name_en: MDPI,    full_name: "MDPI" }
+  - { id: other,    name_en: Other,   full_name: "Other" }
+
+# ---------------------------------------------------------------------------
+# Source registry — where the refresh skill pulls data from. Ordered by trust.
+# ---------------------------------------------------------------------------
+sources:
+  - { id: openalex,      name: OpenAlex,         base_url: "https://api.openalex.org/" }
+  - { id: dblp,          name: DBLP,             base_url: "https://dblp.org/" }
+  - { id: sbc_sol,       name: "SBC SOL",        base_url: "https://sol.sbc.org.br/" }
+  - { id: orcid,         name: ORCID,            base_url: "https://pub.orcid.org/v3.0/" }
+  - { id: scholar,       name: "Google Scholar", base_url: "https://scholar.google.com/" }
+  - { id: lattes,        name: Lattes,           base_url: "http://lattes.cnpq.br/" }
+  - { id: doi,           name: "Crossref / DOI", base_url: "https://api.crossref.org/" }
+  - { id: semantic_scholar, name: "Semantic Scholar", base_url: "https://api.semanticscholar.org/" }
+  - { id: manual,        name: "Manual entry",   base_url: null }
