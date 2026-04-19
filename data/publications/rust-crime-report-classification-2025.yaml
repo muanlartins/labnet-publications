@@ -1,0 +1,50 @@
+id: rust-crime-report-classification-2025
+title: "Hierarchical Multi-Class and Multi-Label Text Classification for Crime Report: A Traditional Machine Learning Approach"
+authors:
+  - name: "André R. Vieira"
+    position: 1
+    orcid: "0009-0006-3193-7375"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Ginelza Peres Lima dos Santos"
+    position: 2
+    orcid: "0000-0003-1371-8815"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Wilson S. Melo"
+    position: 3
+    orcid: "0000-0002-7710-7995"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Luiz Fernando Rust da Costa Carmo"
+    position: 4
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [luiz-fernando-rust]
+year: 2025
+type: journal_article
+language: en
+venue:
+  name: "IEEE Access"
+  short_name: "IEEE Access"
+  full_name: "IEEE Access"
+  type: journal
+  society: ieee
+publisher: "IEEE"
+areas: [nlp, ml, security]
+tags: [text-classification, crime-reports, hierarchical-classification]
+identifiers:
+  doi: "10.1109/access.2025.3638984"
+  openalex_id: "W4416798096"
+  dblp_key: "journals/access/VieiraSMR25"
+url: "https://doi.org/10.1109/access.2025.3638984"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4416798096"
+    source_id: "W4416798096"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/journals/access/VieiraSMR25"
+    source_id: "journals/access/VieiraSMR25"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

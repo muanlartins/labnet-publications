@@ -1,0 +1,50 @@
+id: miceli-federated-chemical-engineering-2025
+title: "Federated Learning in Chemical Engineering: A Tutorial on a Framework for Privacy-Preserving Collaboration across Distributed Data Sources"
+authors:
+  - name: "Siddhant Dutta"
+    position: 1
+    orcid: "0009-0000-5120-7114"
+    affiliation: "Dwarkadas J. Sanghvi College of Engineering"
+  - name: "Iago Leal de Freitas"
+    position: 2
+    affiliation: "Purdue University"
+  - name: "Pedro Maciel Xavier"
+    position: 3
+    affiliation: "Purdue University"
+  - name: "Cláudio Miceli de Farias"
+    position: 4
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "David E. Bernal Neira"
+    position: 5
+    orcid: "0000-0002-8308-5016"
+    affiliation: "Davidson College"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 3
+date: "2025-03-27"
+type: journal_article
+language: en
+venue:
+  name: "Industrial & Engineering Chemistry Research"
+  short_name: "I&EC Research"
+  full_name: "Industrial & Engineering Chemistry Research"
+  type: journal
+  society: other
+publisher: "American Chemical Society"
+areas: [ml, distributed, ai]
+tags: [federated-learning, chemical-engineering, privacy]
+identifiers:
+  doi: "10.1021/acs.iecr.4c03805"
+  openalex_id: "W4408891863"
+url: "https://doi.org/10.1021/acs.iecr.4c03805"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4408891863"
+    source_id: "W4408891863"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "An earlier arXiv preprint (W4404987999, DOI 10.48550/arxiv.2411.16737, Nov 2024) corresponds to this work — only the published ACS article is recorded."

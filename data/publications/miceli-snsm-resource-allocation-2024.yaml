@@ -1,0 +1,46 @@
+id: miceli-snsm-resource-allocation-2024
+title: "SNSM - Dynamic Resource Allocation for Network Slices with LSTM, GRU and Random Forest"
+authors:
+  - name: "Giselle Goiz"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Flavia C. Delicato"
+    position: 3
+    orcid: "0000-0001-5334-8279"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2024
+month: 11
+date: "2024-11-27"
+type: conference_paper
+language: en
+venue:
+  name: "2024 IEEE 13th International Conference on Cloud Networking (CloudNet)"
+  short_name: "CloudNet"
+  full_name: "13th IEEE International Conference on Cloud Networking"
+  type: conference
+  society: ieee
+areas: [networking, ml, distributed]
+tags: [network-slicing, resource-allocation, lstm]
+identifiers:
+  doi: "10.1109/cloudnet62863.2024.10815784"
+  openalex_id: "W4405936007"
+  dblp_key: "conf/cloudnet/GoizFD24"
+url: "https://doi.org/10.1109/cloudnet62863.2024.10815784"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4405936007"
+    source_id: "W4405936007"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/conf/cloudnet/GoizFD24"
+    source_id: "conf/cloudnet/GoizFD24"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

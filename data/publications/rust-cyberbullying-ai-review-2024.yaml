@@ -1,0 +1,43 @@
+id: rust-cyberbullying-ai-review-2024
+title: "Cyberbullying detection: a systematic literature review of ai-based solutions"
+authors:
+  - name: "Raquel Moreira Machado Fernandes"
+    position: 1
+    orcid: "0000-0001-7643-6925"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luiz Fernando Rust da Costa Carmo"
+    position: 2
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudia Lage Rebello da Motta"
+    position: 3
+    orcid: "0000-0002-4069-1462"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [luiz-fernando-rust]
+year: 2024
+month: 7
+date: "2024-07-31"
+type: journal_article
+language: en
+venue:
+  name: "RENOTE - Revista Novas Tecnologias na Educação"
+  short_name: "RENOTE"
+  full_name: "Revista Novas Tecnologias na Educação"
+  type: journal
+  society: other
+areas: [nlp, ml, education]
+tags: [cyberbullying, systematic-review, ai]
+identifiers:
+  doi: "10.22456/1679-1916.141552"
+  openalex_id: "W4404854956"
+url: "https://doi.org/10.22456/1679-1916.141552"
+pdf_url: "https://seer.ufrgs.br/index.php/renote/article/download/141552/92566"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4404854956"
+    source_id: "W4404854956"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

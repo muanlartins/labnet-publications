@@ -1,7 +1,11 @@
 id: gabriel-caldas
 name: Gabriel Caldas
+full_name: Gabriel Rodrigues Caldas de Aquino
 aliases:
+  - Gabriel R. Caldas de Aquino
   - Gabriel R. C. A. Caldas
+  - Gabriel Rodrigues Caldas de Aquino
+  - Gabriel Aquino
 role: professor
 status: active
 affiliation: "PESC/COPPE/UFRJ"
@@ -11,22 +15,23 @@ education:
     field: "Engenharia de Sistemas e Computação"
     institution: "Universidade Federal do Rio de Janeiro (UFRJ)"
     year: null
-research_areas: []
-bio_en: "Research professor at PESC/COPPE/UFRJ. PhD in Systems and Computer Engineering from UFRJ."
-bio_pt: "Professor Pesquisador do PESC/COPPE/UFRJ. Doutor em Engenharia de Sistemas e Computação pela UFRJ."
+research_areas: [iot, distributed, networking]
+bio_en: "Research professor at PESC/COPPE/UFRJ. PhD in Systems and Computer Engineering from UFRJ. Research focus: IoT data quality, sensor data fusion, and wireless sensor networks."
+bio_pt: "Professor Pesquisador do PESC/COPPE/UFRJ. Doutor em Engenharia de Sistemas e Computação pela UFRJ. Foco de pesquisa: qualidade de dados em IoT, fusão de dados de sensores e redes de sensores sem fio."
 photo_url: "https://labnet.nce.ufrj.br/images/pessoas/caldas.jpg"
 profiles:
   lattes_id: "4613499627488074"
   lattes_url: "http://lattes.cnpq.br/4613499627488074"
-  orcid: null
+  orcid: "0009-0001-8481-6036"
   scholar_id: null
   scholar_url: null
-  dblp_pid: null
-  dblp_url: null
-  openalex_id: null
+  dblp_pid: "184/0625"
+  dblp_url: "https://dblp.org/pid/184/0625"
+  openalex_id: "A5022716439"
   github: "https://github.com/gabrielrca"
   linkedin: "https://www.linkedin.com/in/grca/"
 research_since: null
-last_research_date: null
+last_research_date: "2026-04-19"
 last_verified: "2026-04-19"
 verified_by: claude
+notes: "Identified via OpenAlex author search + DBLP co-authorship with Claudio Miceli (the Asclepius, Hygieia, and Hephaestus papers). 6 works (2016–2023) ingested."

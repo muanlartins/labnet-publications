@@ -1,0 +1,41 @@
+id: miceli-metropolis-hastings-robotics-2025
+title: "A Metropolis-Hastings Sampling Approach to Improve Monte Carlo Localization in ROS-Based Robotics"
+authors:
+  - name: "Gustavo Rocha Villela"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Gustavo S. Viana"
+    position: 3
+    orcid: "0000-0002-9444-9372"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 10
+date: "2025-10-21"
+type: conference_paper
+language: en
+venue:
+  name: "2025 IEEE Conference on Dependable, Autonomic and Secure Computing (DASC)"
+  short_name: "DASC"
+  full_name: "IEEE Conference on Dependable, Autonomic and Secure Computing 2025"
+  type: conference
+  society: ieee
+areas: [ml, ai, iot]
+tags: [robotics, monte-carlo-localization, particle-filter]
+identifiers:
+  doi: "10.1109/dasc68382.2025.00015"
+  openalex_id: "W7123352535"
+url: "https://doi.org/10.1109/dasc68382.2025.00015"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W7123352535"
+    source_id: "W7123352535"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

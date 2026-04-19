@@ -1,0 +1,51 @@
+id: rust-seguranca-digital-hqs-2024
+title: "Segurança digital em HQs: Estimulando autoria e protagonismo no 4º ano do ensino fundamental"
+title_en: "Digital Security in Comics: Encouraging Authorship and Leadership in the 4th Year of Elementary School"
+authors:
+  - name: "Raquel Moreira Machado Fernandes"
+    position: 1
+    orcid: "0000-0001-7643-6925"
+    affiliation: "Colégio Pedro II; Universidade Federal do Rio de Janeiro"
+  - name: "Cláudia Lage Rebello da Motta"
+    position: 2
+    orcid: "0000-0002-4069-1462"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luiz Fernando Rust da Costa Carmo"
+    position: 3
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [luiz-fernando-rust]
+year: 2024
+month: 11
+date: "2024-11-04"
+type: workshop_paper
+language: pt
+venue:
+  name: "Anais do XXX Workshop de Informática na Escola (WIE 2024)"
+  short_name: "WIE"
+  full_name: "30th Workshop on Informatics in Schools"
+  type: workshop
+  society: sbc
+location:
+  country: "Brazil"
+  region: br
+areas: [education, security]
+tags: [computing-education, digital-security, K-12]
+identifiers:
+  doi: "10.5753/wie.2024.242496"
+  openalex_id: "W4404319788"
+url: "https://doi.org/10.5753/wie.2024.242496"
+pdf_url: "https://sol.sbc.org.br/index.php/wie/article/download/31056/30859"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4404319788"
+    source_id: "W4404319788"
+    fetched_at: "2026-04-19"
+  - source: sbc_sol
+    url: "https://sol.sbc.org.br/index.php/wie/article/view/242496"
+    source_id: "wie/2024/242496"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

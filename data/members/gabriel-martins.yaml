@@ -1,5 +1,11 @@
 id: gabriel-martins
 name: Gabriel Martins
+full_name: Gabriel Martins de Oliveira Costa
+aliases:
+  - Gabriel Martins de Oliveira Costa
+  - G. M. Oliveira
+  - G. M. de Oliveira Costa
+  - Gabriel M. de Oliveira Costa
 role: phd_student
 status: active
 affiliation: "PESC/COPPE/UFRJ"
@@ -10,21 +16,22 @@ current_program:
   institution: "PESC/COPPE/UFRJ"
   started_year: null
   expected_year: null
-research_areas: [se]
-bio_en: "PhD student in Software Engineering at PESC/COPPE/UFRJ."
-bio_pt: "Doutorando em Engenharia de Software no PESC/COPPE/UFRJ."
+research_areas: [se, iot, distributed, ml]
+bio_en: "PhD student in Software Engineering at PESC/COPPE/UFRJ. Research focus: multisensor data fusion, knowledge fusion heuristics, and Industry 4.0."
+bio_pt: "Doutorando em Engenharia de Software no PESC/COPPE/UFRJ. Foco de pesquisa: fusão de dados multi-sensor, heurísticas de fusão de conhecimento e Indústria 4.0."
 profiles:
   lattes_id: "3729554630046130"
   lattes_url: "http://lattes.cnpq.br/3729554630046130"
-  orcid: null
+  orcid: "0000-0002-3353-2535"
   scholar_id: "wFPpIJAAAAAJ"
   scholar_url: "https://scholar.google.com/citations?user=wFPpIJAAAAAJ&hl=en"
   dblp_pid: null
   dblp_url: null
-  openalex_id: null
+  openalex_id: "A5101779823"
   github: "https://github.com/gmartinsoc"
   linkedin: "https://www.linkedin.com/in/gabriel-martins-5b6a6224/"
 research_since: null
-last_research_date: null
+last_research_date: "2026-04-19"
 last_verified: "2026-04-19"
 verified_by: claude
+notes: "ORCID + OpenAlex id identified via co-authorship with Claudio Miceli (the Computing / QSHINE / Athena papers). Scholar profile at labnet.nce.ufrj.br confirms affiliation. 5 works (2018–2021) ingested."

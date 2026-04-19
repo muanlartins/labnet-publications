@@ -1,0 +1,52 @@
+id: miceli-educational-platform-programming-2025
+title: "Technical and tactical factors of an educational platform aiming to deal with a large number of students and inequalities when teaching programming for STEM students"
+authors:
+  - name: "Gabriel Xará"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Carla Delgado"
+    position: 2
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "João Pedro Freire"
+    position: 3
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Laura O. Moraes"
+    position: 4
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 5
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Ageu Tavares"
+    position: 6
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+type: journal_article
+language: en
+venue:
+  name: "Revista Brasileira de Informática na Educação"
+  short_name: "RBIE"
+  full_name: "Revista Brasileira de Informática na Educação"
+  type: journal
+  society: sbc
+location:
+  country: "Brazil"
+  region: br
+volume: "33"
+areas: [education, hci, se]
+tags: [computing-education, scalable-teaching]
+identifiers:
+  doi: "10.5753/rbie.2025.4479"
+  dblp_key: "journals/rbie/XaraDFGMFT25"
+url: "https://doi.org/10.5753/rbie.2025.4479"
+sources:
+  - source: dblp
+    url: "https://dblp.org/rec/journals/rbie/XaraDFGMFT25"
+    source_id: "journals/rbie/XaraDFGMFT25"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "DBLP-only source; the DBLP author-order encoding in the key (XDFGMFT) suggests 6 authors — exact order inferred. OpenAlex does not yet index this issue."
