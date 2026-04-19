@@ -1,0 +1,41 @@
+id: miceli-twinvax-conceptual-model-2025
+title: "TWINVAX: conceptual model of a digital twin for immunisation services in primary health care"
+authors:
+  - name: "Leonardo El-Warrak"
+    position: 1
+    orcid: "0009-0005-5229-1094"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 5
+date: "2025-05-14"
+type: journal_article
+language: en
+venue:
+  name: "Frontiers in Public Health"
+  short_name: "Front. Public Health"
+  full_name: "Frontiers in Public Health"
+  type: journal
+  society: other
+publisher: "Frontiers Media"
+areas: [e-health, iot, se]
+tags: [digital-twin, immunisation, primary-care]
+identifiers:
+  doi: "10.3389/fpubh.2025.1568123"
+  openalex_id: "W4410379649"
+url: "https://doi.org/10.3389/fpubh.2025.1568123"
+pdf_url: "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1568123/pdf"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4410379649"
+    source_id: "W4410379649"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "An earlier Research Square preprint (W4409505986, DOI 10.21203/rs.3.rs-6245899/v1) was released in April 2025 and corresponds to this work — only the published Frontiers in Public Health article is recorded."

@@ -1,0 +1,45 @@
+id: miceli-rl-brkga-sensor-2025
+title: "A Reinforcement Learning Hybrid BRKGA Strategy Applied to Sensor Network Optimization"
+authors:
+  - name: "Cláudio André da Silva Alves"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Israel Mendonça"
+    position: 3
+    orcid: "0000-0001-6819-4305"
+    affiliation: "Kumamoto University"
+  - name: "Pedro Henrique González"
+    position: 4
+    orcid: "0000-0003-0057-7670"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 7
+date: "2025-07-07"
+type: conference_paper
+language: en
+venue:
+  name: "2025 28th International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "28th International Conference on Information Fusion"
+  type: conference
+  society: ieee
+areas: [ml, ai, iot]
+tags: [reinforcement-learning, brkga, sensor-networks]
+identifiers:
+  doi: "10.23919/fusion65864.2025.11124079"
+  openalex_id: "W4413679870"
+url: "https://doi.org/10.23919/fusion65864.2025.11124079"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4413679870"
+    source_id: "W4413679870"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

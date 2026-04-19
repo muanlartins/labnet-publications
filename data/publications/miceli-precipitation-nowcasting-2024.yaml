@@ -1,0 +1,48 @@
+id: miceli-precipitation-nowcasting-2024
+title: "A Deep Learning Model for Precipitation Nowcasting Using Data Fusion"
+authors:
+  - name: "Ana Luísa Souza Castanheira da Cruz"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Sidney Outeiro"
+    position: 2
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luis Filipe Kopp"
+    position: 3
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 4
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2024
+month: 9
+date: "2024-09-04"
+type: conference_paper
+language: en
+venue:
+  name: "2024 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI)"
+  short_name: "MFI"
+  full_name: "IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems 2024"
+  type: conference
+  society: ieee
+areas: [ml, ai, distributed]
+tags: [deep-learning, weather-forecasting, data-fusion]
+identifiers:
+  doi: "10.1109/mfi62651.2024.10705768"
+  openalex_id: "W4403278424"
+  dblp_key: "conf/mfi/CruzOKF24"
+url: "https://doi.org/10.1109/mfi62651.2024.10705768"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4403278424"
+    source_id: "W4403278424"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/conf/mfi/CruzOKF24"
+    source_id: "conf/mfi/CruzOKF24"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

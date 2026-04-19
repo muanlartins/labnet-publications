@@ -1,0 +1,51 @@
+id: martins-multisensor-knowledge-fusion-2021
+title: "On a multisensor knowledge fusion heuristic for the Internet of Things"
+authors:
+  - name: "Gabriel Martins de Oliveira Costa"
+    position: 1
+    member_id: gabriel-martins
+    orcid: "0000-0002-3353-2535"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Sergio Guedes de Souza"
+    position: 2
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Igor Leão dos Santos"
+    position: 3
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luci Pirmez"
+    position: 4
+    orcid: "0000-0002-0925-175X"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 5
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+    is_corresponding: true
+authors_labnet: [gabriel-martins, claudio-miceli]
+year: 2021
+month: 5
+date: "2021-05-03"
+type: journal_article
+language: en
+venue:
+  name: "Computer Communications"
+  short_name: "Comput. Commun."
+  full_name: "Computer Communications"
+  type: journal
+  society: elsevier
+publisher: "Elsevier"
+areas: [iot, distributed, ml]
+tags: [knowledge-fusion, multisensor]
+identifiers:
+  doi: "10.1016/j.comcom.2021.04.025"
+  openalex_id: "W3159426177"
+url: "https://doi.org/10.1016/j.comcom.2021.04.025"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W3159426177"
+    source_id: "W3159426177"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

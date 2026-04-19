@@ -1,0 +1,47 @@
+id: caldas-data-quality-social-sensor-2018
+title: "Data Quality Assessment and Enhancement on Social and Sensor Data"
+authors:
+  - name: "Gabriel R. Caldas de Aquino"
+    position: 1
+    member_id: gabriel-caldas
+    orcid: "0009-0001-8481-6036"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luci Pirmez"
+    position: 3
+    orcid: "0000-0002-0925-175X"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [gabriel-caldas, claudio-miceli]
+year: 2018
+type: poster
+language: en
+venue:
+  name: "Proceedings of the VLDB 2018 PhD Workshop (BiDu-Posters @ VLDB 2018)"
+  short_name: "BiDu@VLDB"
+  full_name: "VLDB 2018 PhD Workshop / BiDu Posters"
+  type: workshop
+  society: other
+areas: [databases, iot, data-mining]
+tags: [data-quality, social-sensors]
+identifiers:
+  openalex_id: "W2902730495"
+  dblp_key: "conf/vldb/AquinoFP18"
+url: "https://ceur-ws.org/Vol-2247/poster7.pdf"
+pdf_url: "https://ceur-ws.org/Vol-2247/poster7.pdf"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W2902730495"
+    source_id: "W2902730495"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/conf/vldb/AquinoFP18"
+    source_id: "conf/vldb/AquinoFP18"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "No DOI issued — CEUR-WS proceedings only."

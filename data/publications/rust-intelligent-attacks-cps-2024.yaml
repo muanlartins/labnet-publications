@@ -1,0 +1,53 @@
+id: rust-intelligent-attacks-cps-2024
+title: "Intelligent Attacks on Cyber-Physical Systems and Critical Infrastructures"
+authors:
+  - name: "Alan Oliveira de Sá"
+    position: 1
+    orcid: "0000-0001-6311-9672"
+    affiliation: "University of Lisbon"
+  - name: "Charles B. Prado"
+    position: 2
+    orcid: "0000-0003-3119-9772"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Mariana Luiza Flavio"
+    position: 3
+    orcid: "0009-0009-9477-7163"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Luiz Fernando Rust da Costa Carmo"
+    position: 4
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+authors_labnet: [luiz-fernando-rust]
+year: 2024
+month: 9
+date: "2024-09-20"
+type: book_chapter
+language: en
+venue:
+  name: "NATO Science for Peace and Security Series - D: Information and Communication Security"
+  short_name: "NATO SPS-D"
+  full_name: "NATO Science for Peace and Security Series - D: Information and Communication Security"
+  type: book
+  society: other
+publisher: "IOS Press"
+areas: [security, iot]
+tags: [cyber-physical-systems, critical-infrastructure, intelligent-attacks]
+identifiers:
+  doi: "10.3233/nicsp240033"
+  openalex_id: "W4402844902"
+  arxiv_id: "2501.12762"
+url: "https://doi.org/10.3233/nicsp240033"
+pdf_url: "https://arxiv.org/pdf/2501.12762"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4402844902"
+    source_id: "W4402844902"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/journals/corr/abs-2501-12762"
+    source_id: "journals/corr/abs-2501-12762"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

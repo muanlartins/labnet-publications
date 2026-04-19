@@ -1,0 +1,48 @@
+id: miceli-digital-twin-immunisation-2025
+title: "Simulation-based assessment of digital twin systems for immunisation"
+authors:
+  - name: "Leonardo El-Warrak"
+    position: 1
+    orcid: "0009-0005-5229-1094"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Victor Hugo Dias Macedo de Azevedo Costa"
+    position: 3
+    affiliation: "Universidade do Estado do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 8
+date: "2025-08-22"
+type: journal_article
+language: en
+venue:
+  name: "Frontiers in Digital Health"
+  short_name: "Front. Digit. Health"
+  full_name: "Frontiers in Digital Health"
+  type: journal
+  society: other
+publisher: "Frontiers Media"
+areas: [e-health, iot, ml]
+tags: [digital-twin, immunisation, simulation]
+identifiers:
+  doi: "10.3389/fdgth.2025.1603550"
+  openalex_id: "W4413436879"
+  dblp_key: "journals/fdgth/ElWarrakFC25"
+url: "https://doi.org/10.3389/fdgth.2025.1603550"
+pdf_url: "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1603550/pdf"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4413436879"
+    source_id: "W4413436879"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/journals/fdgth/ElWarrakFC25"
+    source_id: "journals/fdgth/ElWarrakFC25"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

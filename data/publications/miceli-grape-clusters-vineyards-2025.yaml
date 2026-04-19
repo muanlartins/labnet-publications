@@ -1,0 +1,55 @@
+id: miceli-grape-clusters-vineyards-2025
+title: "An Object-Tracking Technique for Counting Grape Clusters in Brazilian Northeast's Pergola Vineyards"
+authors:
+  - name: "Arthur Sasse"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "John Wieland"
+    position: 2
+    orcid: "0000-0002-8971-8523"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Antônio Pereira"
+    position: 3
+    orcid: "0000-0002-0808-1058"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Lincoln R. Proença"
+    position: 4
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Ian M. P. Freitas"
+    position: 5
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Pablo Rangel"
+    position: 6
+    orcid: "0000-0003-0547-3889"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 7
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 7
+date: "2025-07-07"
+type: conference_paper
+language: en
+venue:
+  name: "2025 28th International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "28th International Conference on Information Fusion"
+  type: conference
+  society: ieee
+areas: [cv, ml, ai]
+tags: [object-tracking, agriculture, precision-agriculture]
+identifiers:
+  doi: "10.23919/fusion65864.2025.11124157"
+  openalex_id: "W4413679916"
+url: "https://doi.org/10.23919/fusion65864.2025.11124157"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4413679916"
+    source_id: "W4413679916"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

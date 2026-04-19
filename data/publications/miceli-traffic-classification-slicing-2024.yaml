@@ -1,0 +1,41 @@
+id: miceli-traffic-classification-slicing-2024
+title: "Traffic Classification for Network Slicing Using Machine Learning Techniques"
+authors:
+  - name: "Giselle Goiz"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Flavia C. Delicato"
+    position: 3
+    orcid: "0000-0001-5334-8279"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2024
+month: 11
+date: "2024-11-05"
+type: conference_paper
+language: en
+venue:
+  name: "2024 IEEE Conference on Pervasive and Intelligent Computing (PICom)"
+  short_name: "PICom"
+  full_name: "IEEE Conference on Pervasive and Intelligent Computing 2024"
+  type: conference
+  society: ieee
+areas: [networking, ml]
+tags: [network-slicing, traffic-classification]
+identifiers:
+  doi: "10.1109/picom64201.2024.00011"
+  openalex_id: "W4405602432"
+url: "https://doi.org/10.1109/picom64201.2024.00011"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4405602432"
+    source_id: "W4405602432"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

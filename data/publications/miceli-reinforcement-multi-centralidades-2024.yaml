@@ -1,0 +1,52 @@
+id: miceli-reinforcement-multi-centralidades-2024
+title: "Aprendizado por Reforço em uma Heurística Multi-Centralidades para a Redução de Largura de Banda em Matrizes Esparsas"
+title_en: "Reinforcement Learning in a Multi-Centrality Heuristic for Bandwidth Reduction in Sparse Matrices"
+authors:
+  - name: "João Vitor Mauês Dias Carneiro"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Rafael Schneider"
+    position: 2
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Laura Silva de Assis"
+    position: 3
+    orcid: "0000-0003-3081-9722"
+    affiliation: "CEFET-MG"
+  - name: "Sanderson L. Gonzaga de Oliveira"
+    position: 4
+    affiliation: "Universidade Federal de Lavras"
+  - name: "Diego Brandão"
+    position: 5
+    affiliation: "CEFET/RJ"
+  - name: "Claudio M. de Farias"
+    position: 6
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2024
+type: symposium_paper
+language: pt
+venue:
+  name: "Anais do LVI Simpósio Brasileiro de Pesquisa Operacional (SBPO 2024)"
+  short_name: "SBPO"
+  full_name: "56th Brazilian Symposium on Operations Research"
+  type: symposium
+  society: other
+location:
+  country: "Brazil"
+  region: br
+areas: [ml, ai, theory]
+tags: [reinforcement-learning, sparse-matrix, bandwidth-reduction]
+identifiers:
+  doi: "10.59254/sbpo-2024-193359"
+  openalex_id: "W4405267066"
+url: "https://doi.org/10.59254/sbpo-2024-193359"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4405267066"
+    source_id: "W4405267066"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

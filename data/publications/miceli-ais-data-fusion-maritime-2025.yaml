@@ -1,0 +1,45 @@
+id: miceli-ais-data-fusion-maritime-2025
+title: "A Comprehensive Data Fusion Model for AIS-Based Maritime Research"
+authors:
+  - name: "Ricardo Vinícius Ferreira de Figueiredo"
+    position: 1
+    orcid: "0009-0002-0707-4160"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "J. A. Martins Simões"
+    position: 2
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 3
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Jean-David Caprace"
+    position: 4
+    orcid: "0000-0002-1014-9357"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 7
+date: "2025-07-07"
+type: conference_paper
+language: en
+venue:
+  name: "2025 28th International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "28th International Conference on Information Fusion"
+  type: conference
+  society: ieee
+areas: [iot, ml, distributed]
+tags: [ais, maritime, data-fusion]
+identifiers:
+  doi: "10.23919/fusion65864.2025.11123948"
+  openalex_id: "W4413640087"
+url: "https://doi.org/10.23919/fusion65864.2025.11123948"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4413640087"
+    source_id: "W4413640087"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

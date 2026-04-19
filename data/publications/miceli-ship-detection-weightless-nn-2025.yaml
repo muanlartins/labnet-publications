@@ -1,0 +1,42 @@
+id: miceli-ship-detection-weightless-nn-2025
+title: "A Ship Detection Technique Using Weightless Neural Networks"
+authors:
+  - name: "Adriano C. M. Pereira"
+    position: 1
+    orcid: "0000-0003-2389-0512"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Claudio M. de Farias"
+    position: 2
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Leandro Santiago"
+    position: 3
+    orcid: "0000-0002-3631-8761"
+    affiliation: "Universidade Federal Fluminense"
+authors_labnet: [claudio-miceli]
+year: 2025
+month: 7
+date: "2025-07-07"
+type: conference_paper
+language: en
+venue:
+  name: "2025 28th International Conference on Information Fusion (FUSION)"
+  short_name: "FUSION"
+  full_name: "28th International Conference on Information Fusion"
+  type: conference
+  society: ieee
+areas: [cv, ml, ai]
+tags: [ship-detection, weightless-neural-network, maritime-surveillance]
+identifiers:
+  doi: "10.23919/fusion65864.2025.11124100"
+  openalex_id: "W4413679924"
+url: "https://doi.org/10.23919/fusion65864.2025.11124100"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4413679924"
+    source_id: "W4413679924"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

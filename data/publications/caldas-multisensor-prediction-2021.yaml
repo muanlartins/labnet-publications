@@ -1,0 +1,64 @@
+id: caldas-multisensor-prediction-2021
+title: "A multisensor prediction-based heuristic for the internet of things"
+authors:
+  - name: "Gabriel Martins de Oliveira Costa"
+    position: 1
+    member_id: gabriel-martins
+    orcid: "0000-0002-3353-2535"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luis Filipe Kopp"
+    position: 2
+    orcid: "0000-0002-7042-420X"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Gabriel R. Caldas de Aquino"
+    position: 3
+    member_id: gabriel-caldas
+    orcid: "0009-0001-8481-6036"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Luiz Fernando Rust da Costa Carmo"
+    position: 4
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Claudio M. de Farias"
+    position: 5
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+    is_corresponding: true
+authors_labnet: [gabriel-martins, gabriel-caldas, luiz-fernando-rust, claudio-miceli]
+year: 2021
+month: 1
+date: "2021-01-08"
+type: journal_article
+language: en
+venue:
+  name: "Computing"
+  short_name: "Computing"
+  full_name: "Computing"
+  type: journal
+  society: springer
+volume: "103"
+issue: "6"
+pages: "1105-1120"
+publisher: "Springer"
+areas: [iot, distributed, ml]
+tags: [multisensor, prediction, heuristic]
+identifiers:
+  doi: "10.1007/s00607-020-00888-5"
+  openalex_id: "W3120544283"
+  dblp_key: "journals/computing/CostaKACF21"
+url: "https://doi.org/10.1007/s00607-020-00888-5"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W3120544283"
+    source_id: "W3120544283"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/journals/computing/CostaKACF21"
+    source_id: "journals/computing/CostaKACF21"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Four LabNet members co-authored: Gabriel Martins (1st), Gabriel Caldas (3rd), Luiz Fernando Rust (4th), Claudio Miceli (5th/corresponding)."

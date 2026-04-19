@@ -1,0 +1,50 @@
+id: miceli-developer-experience-software-reuse-2024
+title: "Investigating Developer Experience in Software Reuse"
+authors:
+  - name: "Rodrigo Feitosa Gonçalves"
+    position: 1
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudia Werner"
+    position: 2
+    orcid: "0000-0002-4231-9621"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 3
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [claudio-miceli]
+year: 2024
+month: 9
+date: "2024-09-30"
+type: symposium_paper
+language: en
+venue:
+  name: "Anais do XVIII Simpósio Brasileiro de Componentes, Arquiteturas e Reutilização de Software (SBCARS 2024)"
+  short_name: "SBCARS"
+  full_name: "18th Brazilian Symposium on Software Components, Architectures and Reuse"
+  type: symposium
+  society: sbc
+location:
+  country: "Brazil"
+  region: br
+areas: [se, se-analytics, hci]
+tags: [software-reuse, developer-experience]
+identifiers:
+  doi: "10.5753/sbcars.2024.3865"
+  openalex_id: "W4403468588"
+  dblp_key: "conf/sbcars/GoncalvesWF24"
+  sbc_sol_id: "sbcars/2024/3865"
+url: "https://doi.org/10.5753/sbcars.2024.3865"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W4403468588"
+    source_id: "W4403468588"
+    fetched_at: "2026-04-19"
+  - source: dblp
+    url: "https://dblp.org/rec/conf/sbcars/GoncalvesWF24"
+    source_id: "conf/sbcars/GoncalvesWF24"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
