@@ -158,6 +158,22 @@ function pubApp() {
       return r["name_" + this.lang] || r.name_en;
     },
 
+    identifierLink(key, value) {
+      if (!value) return null;
+      switch (key) {
+        case "doi":                 return `https://doi.org/${value}`;
+        case "openalex_id":         return `https://openalex.org/${value}`;
+        case "arxiv_id":            return `https://arxiv.org/abs/${value}`;
+        case "dblp_key":            return `https://dblp.org/rec/${value}`;
+        case "semantic_scholar_id": return `https://www.semanticscholar.org/paper/${value}`;
+        case "sbc_sol_id": {
+          const [slug, num] = String(value).split("/");
+          return slug && num ? `https://sol.sbc.org.br/index.php/${slug}/article/view/${num}` : null;
+        }
+        default: return null;
+      }
+    },
+
     memberName(id) {
       return this.data.members.find((m) => m.id === id)?.name || id;
     },
