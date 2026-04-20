@@ -499,7 +499,11 @@
                 <div class="text-[11px] uppercase tracking-wider text-zinc-500" x-text="t('identifiers')"></div>
                 <div class="text-xs font-mono text-zinc-300 space-y-0.5">
                   <template x-for="[k,v] in Object.entries(selectedPub.identifiers)" :key="k">
-                    <div><span class="text-zinc-500 uppercase" x-text="k"></span>: <span x-text="v"></span></div>
+                    <div>
+                      <span class="text-zinc-500 uppercase" x-text="k"></span>:
+                      <template x-if="identifierLink(k,v)"><a :href="identifierLink(k,v)" target="_blank" rel="noopener" class="text-accent-300 hover:text-accent-200 underline decoration-accent-500/30 underline-offset-2" x-text="v"></a></template>
+                      <template x-if="!identifierLink(k,v)"><span x-text="v"></span></template>
+                    </div>
                   </template>
                 </div>
               </div>
