@@ -1,0 +1,27 @@
+id: miceli-tcc-jury-conde-2024
+title: "Undergraduate thesis jury for Matheus Lomba de Rezende Conde (UFRJ 2024)"
+role: tcc_jury
+member_id: claudio-miceli
+year: 2024
+related_work:
+  kind: tcc
+  candidate_name: "Matheus Lomba de Rezende Conde"
+  candidate_institution: "Universidade Federal do Rio de Janeiro"
+  title: "AVALIAÇÃO DE MÉTODOS DE ANÁLISE DE SENTIMENTO APLICADOS A NOTÍCIAS EM PORTUGUÊS"
+  title_pt: "AVALIAÇÃO DE MÉTODOS DE ANÁLISE DE SENTIMENTO APLICADOS A NOTÍCIAS EM PORTUGUÊS"
+  title_en: "Evaluating Sentiment-Analysis Methods Applied to Portuguese News"
+  graduation_year: 2024
+location:
+  city: "Rio de Janeiro"
+  country: "Brazil"
+  region: br
+areas: [nlp, ml]
+tags: [sentiment-analysis, portuguese-nlp]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Derived from Marcos Araújo's Lattes CV. Engenharia Eletrônica e de Computação (UFRJ). Marcos Araújo also served — see marcos-araujo-tcc-jury-conde-2024."

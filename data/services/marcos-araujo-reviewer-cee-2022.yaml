@@ -1,0 +1,21 @@
+id: marcos-araujo-reviewer-cee-2022
+title: "Journal reviewer for Computers & Electrical Engineering (2022–2023)"
+role: reviewer_journal
+member_id: marcos-araujo
+year: 2022
+year_start: 2022
+year_end: 2023
+venue:
+  name: "Computers & Electrical Engineering"
+  short_name: "Comput. Electr. Eng."
+  full_name: "Computers & Electrical Engineering (Elsevier)"
+  type: journal
+  society: elsevier
+areas: [security, energy]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

@@ -1,0 +1,28 @@
+id: marcos-araujo-advising-tcc-couto-2025
+title: "Undergraduate thesis advising for Thales Siqueira Couto (UFRJ 2025)"
+role: advising_tcc
+member_id: marcos-araujo
+year: 2025
+related_work:
+  kind: tcc
+  candidate_name: "Thales Siqueira Couto"
+  candidate_institution: "Universidade Federal do Rio de Janeiro"
+  title: "Tiny MLSecOPS: A proposta de um framework seguro para o ciclo de vida de aplicações Tony ML"
+  title_pt: "Tiny MLSecOPS: A proposta de um framework seguro para o ciclo de vida de aplicações Tony ML"
+  title_en: "Tiny MLSecOPS: A Secure Framework Proposal for the Lifecycle of Tiny-ML Applications"
+  advisor: "Marcos Vinicius Monteiro Araújo"
+  graduation_year: 2025
+location:
+  city: "Rio de Janeiro"
+  country: "Brazil"
+  region: br
+areas: [security, ml, se]
+tags: [tinyml, mlops, secure-software-lifecycle]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Graduação em Ciência da Computação (UFRJ)."

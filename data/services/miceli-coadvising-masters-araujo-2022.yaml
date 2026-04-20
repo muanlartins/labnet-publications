@@ -1,0 +1,28 @@
+id: miceli-coadvising-masters-araujo-2022
+title: "Master's co-advising for Marcos Vinicius Monteiro Araújo (PPGI/NCE/UFRJ 2022)"
+role: coadvising_masters
+member_id: claudio-miceli
+year: 2022
+related_work:
+  kind: thesis
+  candidate_name: "Marcos Vinicius Monteiro Araújo"
+  candidate_institution: "PPGI / NCE / UFRJ"
+  title: "Processamento Seguro de Dados de Smart Meters"
+  title_pt: "Processamento Seguro de Dados de Smart Meters"
+  title_en: "Secure Processing of Smart-Meter Data"
+  advisor: "Luiz Fernando Rust da Costa Carmo"
+  graduation_year: 2022
+location:
+  city: "Rio de Janeiro"
+  country: "Brazil"
+  region: br
+areas: [security, energy, iot]
+tags: [intel-sgx, smart-meters, cloud-security]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Derived from Marcos Araújo's Lattes CV: Cláudio Miceli de Farias was co-advisor (advisor was Luiz Fernando Rust — see rust-advising-masters-araujo-2022). Linked publication: araujo-processamento-seguro-smart-meters-2022."

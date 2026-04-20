@@ -1,31 +1,54 @@
 id: marcos-araujo
 name: Marcos Araújo
+full_name: Marcos Vinicius Monteiro Araújo
 aliases:
   - Marcos Araujo
+  - Marcos Vinicius Monteiro Araújo
+  - Marcos Vinícius Monteiro Araújo
+  - ARAÚJO, M. V. M.
   - M. V. M. Araujo
 role: phd_student
 status: active
 affiliation: "PESC/COPPE/UFRJ"
-advisor_id: null
+advisor_id: claudio-miceli
 current_program:
   degree_level: phd
-  program: "Engenharia de Software"
+  program: "Engenharia de Sistemas e Computação"
   institution: "PESC/COPPE/UFRJ"
-  started_year: null
+  started_year: 2023
   expected_year: null
-research_areas: [se]
-bio_en: "PhD student in Software Engineering at PESC/COPPE/UFRJ."
-bio_pt: "Doutorando em Engenharia de Software no PESC/COPPE/UFRJ."
+education:
+  - degree: MSc
+    field: Informática
+    institution: "PPGI / Núcleo de Computação Eletrônica (NCE), UFRJ"
+    year: 2022
+  - degree: BSc
+    field: "Análise e Desenvolvimento de Sistemas"
+    institution: "Universidade Anhanguera de São Paulo (UNIAN/SP)"
+    year: 2022
+  - degree: Licenciatura
+    field: Computação
+    institution: "Universidade Federal Rural da Amazônia (UFRA)"
+    year: 2014
+research_areas: [security, iot, networking, energy, distributed]
+bio_en: "PhD student in Systems and Computer Engineering at PESC/COPPE/UFRJ (advisor: Claudio Miceli). Master's in Informatics from PPGI/NCE/UFRJ (2022) with a dissertation on secure processing of smart-meter data (advisor: Luiz Fernando Rust, co-advisor: Claudio Miceli). Previously collaborated with Inmetro on the EU H2020 SecureCloud project (2016–2018). Current industry role at Neopath Integrated Systems (UFRJ Technology Park). Research focus: information security, secure cloud computing, smart-grid security, and IoT."
+bio_pt: "Doutorando em Engenharia de Sistemas e Computação no PESC/COPPE/UFRJ (orientador: Claudio Miceli). Mestre em Informática pelo PPGI/NCE/UFRJ (2022), com dissertação sobre processamento seguro de dados de smart meters (orientador: Luiz Fernando Rust, coorientador: Claudio Miceli). Colaborou com o Inmetro no projeto EU H2020 SecureCloud (2016–2018). Atualmente na Neopath Integrated Systems (Parque Tecnológico da UFRJ). Foco de pesquisa: segurança da informação, nuvem segura, segurança em smart grids e IoT."
 photo_url: "https://labnet.nce.ufrj.br/images/pessoas/Marcos Araújo.jpg"
+joined_year: null
 profiles:
   lattes_id: "2933165577023180"
   lattes_url: "http://lattes.cnpq.br/2933165577023180"
-  orcid: null
+  orcid: "0000-0003-4147-2832"
   scholar_id: null
+  scholar_url: null
+  dblp_pid: "230/1423"
+  dblp_url: "https://dblp.org/pid/230/1423"
+  openalex_id: "A5065001713"
   github: "https://github.com/marcosaraujomvma"
   linkedin: "https://linkedin.com/in/marcos-araujo-m-sc-451a5649"
-research_since: null
+research_since: "2013-01-01"
 last_research_date: "2026-04-19"
 last_verified: "2026-04-19"
+lattes_checked_at: "2026-04-19"
 verified_by: claude
-notes: "No publications cleanly matched to this person in OpenAlex. Gabriel Martins's Scholar profile lists a co-author 'M. V. M. Araujo' on 'Heimdall: a plataforma to empower common IoT services' with Claudio Miceli — possibly the same person, but lacks DOI / independent confirmation. Flag for human verification on next pass; GitHub handle 'marcosaraujomvma' is consistent with 'M. V. M. Araujo'."
+notes: "Lattes PDF cross-checked 2026-04-19 — surfaced ORCID, DBLP PID, master's dissertation (2022), TCC (2014), four pre-2018 electrical-engineering conference papers (SBSE 2014, Grounding 2014 Manaus ×2, V SIC 2013), CIMElec 2017 venue, and all service records. Industry work at Neopath (2018–present) is not research output."

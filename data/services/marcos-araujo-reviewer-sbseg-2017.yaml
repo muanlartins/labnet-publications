@@ -1,0 +1,22 @@
+id: marcos-araujo-reviewer-sbseg-2017
+title: "Conference reviewer for SBSeg 2017"
+role: reviewer_conference
+member_id: marcos-araujo
+year: 2017
+venue:
+  name: "Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais"
+  short_name: "SBSeg"
+  full_name: "Brazilian Symposium on Information and Computational Systems Security"
+  type: symposium
+  society: sbc
+location:
+  country: "Brazil"
+  region: br
+areas: [security]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

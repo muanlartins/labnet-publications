@@ -58,18 +58,27 @@ If you add an identifier, update the member YAML **before** starting the refresh
 
 **Never guess an ORCID.** If you can't verify by UFRJ affiliation, leave it null and log the member for human attention.
 
+**Lattes PDF detection.** Before starting source queries for a member, look for a Lattes PDF export in the user's repos:
+
+```
+find $HOME/repos -maxdepth 4 -iname "*Lattes*<surname>*.pdf" -o -iname "*<full_name>*.pdf"
+```
+
+If found, read it with the Read tool (handles PDFs natively) and treat it as the **highest-trust source** for that member for this run — ORCIDs visible on the Lattes but not surfaced by search APIs are still safe to adopt, and the publications/services lists there are authoritative for Brazilian-venue work that OpenAlex/DBLP/SBC SOL don't index (electrical-engineering conferences, UFRA / PPGI / local theses, domestic journals). See §3 and §6 below for how it feeds into the source order. Whether or not a Lattes PDF was cross-checked is recorded on the member YAML as `lattes_checked_at: <date>` (null / absent means not yet checked — the record is probably missing the long tail).
+
 ### 3. Query each source per member
 
 For every member in `to_refresh[]`:
 
 Use `source-queries.md` for exact URL / API patterns. The order below is intentional — items first found via higher-trust sources preempt lower-trust duplicates.
 
-1. **OpenAlex** (best for coverage + metadata quality, supports ORCID filter + date filter).
-2. **DBLP** (best for CS conference / journal canonicalization).
-3. **SBC SOL** (https://sol.sbc.org.br) — the authoritative index for all SBC-sponsored proceedings; indispensable for Brazilian venues (SBRC, SBSeg, BRACIS, CSBC, etc.). Paper cites often redirect here.
-4. **ORCID** (https://pub.orcid.org/v3.0/<orcid>/works) — picks up self-reported works missing elsewhere.
-5. **Google Scholar** — only as a last-resort tiebreaker or for works none of the above know about. Scholar has no API; WebFetch on the profile's `sortby=pubdate` URL and parse the listing. Do NOT rely on Scholar alone because disambiguation is weak.
-6. **Lattes HTML** — skip by default. Lattes is JS-rendered and CAPTCHA-protected. Touch it only if a user explicitly requests it or to fetch a specific CV item linked from another source.
+1. **Lattes PDF** (only when a file was found in step 2) — read the `Produções` and `Formação` sections. Authoritative for ORCID, master / TCC theses at non-CS programs, and Brazilian-venue papers that aren't in OpenAlex / DBLP / SOL. A Lattes-only paper is a valid record; don't drop it just because no other source knows about it.
+2. **OpenAlex** (best for coverage + metadata quality, supports ORCID filter + date filter).
+3. **DBLP** (best for CS conference / journal canonicalization).
+4. **SBC SOL** (https://sol.sbc.org.br) — the authoritative index for all SBC-sponsored proceedings; indispensable for Brazilian venues (SBRC, SBSeg, BRACIS, CSBC, etc.). Paper cites often redirect here.
+5. **ORCID** (https://pub.orcid.org/v3.0/<orcid>/works) — picks up self-reported works missing elsewhere.
+6. **Google Scholar** — only as a last-resort tiebreaker or for works none of the above know about. Scholar has no API; WebFetch on the profile's `sortby=pubdate` URL and parse the listing. Do NOT rely on Scholar alone because disambiguation is weak.
+7. **Lattes HTML** — skip by default. Lattes is JS-rendered and CAPTCHA-protected. Touch the live HTML only if (a) no PDF is available and (b) a user explicitly requests it. Prefer asking the user to drop a PDF in `~/repos/`.
 
 Collect all hits with publication date > `last_research_date` (or, on first pull, > `research_since` if set, else unbounded).
 
@@ -94,9 +103,9 @@ Program-committee memberships, juries/bancas, editorial boards, invited talks, a
 - **SBC SOL** frequently lists PC members on the front matter of proceedings.
 - **ORCID** has a `services` section members often self-report.
 - **Conference websites** (via WebFetch on the venue URL) list PC rosters — pick these up when processing a publication from that venue.
-- **Thesis juries / bancas** are generally only on Lattes; treat these as nice-to-have and accept they'll be incomplete without manual entry.
+- **Thesis juries / bancas** are generally only on Lattes. When a Lattes PDF is available (see §2 detection step), lift every `Bancas` / `Revisor de periódico` / `Organização de eventos` / `Orientações` entry directly. Without a Lattes PDF, accept they'll be incomplete.
 
-For advising relationships (prof advised student X on thesis Y), the authoritative source is often the student's graduation record. On first pass, create service records for advising when you see a thesis authored by a LabNet student AND the advisor is also a LabNet member — derive the relationship and write a service YAML for the advisor.
+For advising relationships (prof advised student X on thesis Y), the authoritative source is often the student's graduation record — and the Lattes PDF is the most practical version of that. On first pass, create service records for advising when you see a thesis authored by a LabNet student AND the advisor is also a LabNet member — derive the relationship and write a service YAML for the advisor (AND a co-advising record if a LabNet co-advisor is listed). Same principle for juries: if multiple LabNet members sat on the same panel, every one gets their own service YAML — the panel membership shows up once per Lattes, but attribution is per-member.
 
 ### 7. Write YAMLs
 
@@ -107,7 +116,7 @@ One file per record, sorted chronologically by year then title — the diff shou
 
 Set `verified_by: claude` on everything you touch. Always include at least one `sources[]` entry with `fetched_at: <today>`.
 
-For each processed member, bump `last_research_date` to today.
+For each processed member, bump `last_research_date` to today. If a Lattes PDF was cross-checked this run, also set `lattes_checked_at` to today. If the Lattes surfaced pre-`research_since` work the user wants ingested (e.g., a pre-LabNet master's thesis), lower `research_since` accordingly and note it in the PR description.
 
 ### 8. Validate, build
 

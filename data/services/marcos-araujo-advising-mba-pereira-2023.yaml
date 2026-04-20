@@ -1,0 +1,28 @@
+id: marcos-araujo-advising-mba-pereira-2023
+title: "MBA specialization advising for Leandro Ortigão Pereira (UFRJ 2023)"
+role: advising_specialization
+member_id: marcos-araujo
+year: 2023
+related_work:
+  kind: thesis
+  candidate_name: "Leandro Ortigão Pereira"
+  candidate_institution: "Universidade Federal do Rio de Janeiro"
+  title: "ANÁLISE DE CASO REAL DE FRAMEWORK DE MIGRAÇÃO DE INFRAESTRUTURA EMPRESARIAL PARA A NUVEM USANDO CLOUDSTEP E METAMODELO"
+  title_pt: "ANÁLISE DE CASO REAL DE FRAMEWORK DE MIGRAÇÃO DE INFRAESTRUTURA EMPRESARIAL PARA A NUVEM USANDO CLOUDSTEP E METAMODELO"
+  title_en: "Real Case Analysis of an Enterprise Infrastructure Cloud-Migration Framework Using CloudStep and a Metamodel"
+  advisor: "Marcos Vinicius Monteiro Araújo"
+  graduation_year: 2023
+location:
+  city: "Rio de Janeiro"
+  country: "Brazil"
+  region: br
+areas: [distributed, se]
+tags: [cloud-migration, metamodel, enterprise-infrastructure]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "MBA em Engenharia de Dados (specialization-level monograph, not a master's dissertation)."

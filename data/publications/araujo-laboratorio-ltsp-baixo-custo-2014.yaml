@@ -1,0 +1,32 @@
+id: araujo-laboratorio-ltsp-baixo-custo-2014
+title: "Laboratório de Informática de Baixo Custo com LTSP (Linux Terminal Project Server)"
+title_en: "A Low-Cost Computer Lab with LTSP (Linux Terminal Project Server)"
+authors:
+  - name: "Marcos Vinicius Monteiro Araújo"
+    position: 1
+    member_id: marcos-araujo
+    orcid: "0000-0003-4147-2832"
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+authors_labnet: [marcos-araujo]
+year: 2014
+type: tcc
+language: pt
+venue:
+  name: "Licenciatura em Computação, Universidade Federal Rural da Amazônia"
+  short_name: "UFRA"
+  full_name: "Licenciatura em Computação, UFRA"
+  type: institution
+  society: other
+location:
+  country: "Brazil"
+  region: br
+areas: [education, networking]
+tags: [LTSP, thin-client, low-cost-lab, undergrad-thesis]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Undergraduate final project (TCC) in Licenciatura em Computação. Advisor: Deciola Fernandes de Souza (UFRA, not a LabNet member). Sourced from the Lattes CV only — UFRA does not have a public thesis repository."
