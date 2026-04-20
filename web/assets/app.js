@@ -125,10 +125,66 @@ function pubApp() {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         const j = await r.json();
         Object.assign(this.data, j);
+        this._applyHash();
+        window.addEventListener("hashchange", () => this._applyHash());
+        window.addEventListener("popstate", () => this._applyHash());
       } catch (err) {
         this.error = String(err);
         console.error("[labnet-publications] failed to load site.json:", err);
       }
+    },
+
+    openMember(m) {
+      if (!m) return;
+      this.selectedPub = null;
+      this.selectedMember = m;
+      this._syncHash();
+    },
+
+    openMemberById(id) {
+      const m = this.data.members.find((x) => x.id === id);
+      if (m) this.openMember(m);
+    },
+
+    openPub(p) {
+      if (!p) return;
+      this.selectedMember = null;
+      this.selectedPub = p;
+      this._syncHash();
+    },
+
+    closeOverlay() {
+      this.selectedMember = null;
+      this.selectedPub = null;
+      this._syncHash();
+    },
+
+    _syncHash() {
+      const h = this.selectedMember ? `#/member/${this.selectedMember.id}`
+              : this.selectedPub    ? `#/pub/${this.selectedPub.id}`
+              : "";
+      const url = location.pathname + location.search + h;
+      if (location.pathname + location.search + location.hash !== url) {
+        history.replaceState(null, "", url);
+      }
+    },
+
+    _applyHash() {
+      const raw = (location.hash || "").replace(/^#\/?/, "");
+      if (!raw) { this.selectedMember = null; this.selectedPub = null; return; }
+      const slash = raw.indexOf("/");
+      const kind = slash < 0 ? raw : raw.slice(0, slash);
+      const id   = slash < 0 ? ""  : raw.slice(slash + 1);
+      if (kind === "member" && id) {
+        const m = this.data.members.find((x) => x.id === id);
+        if (m) { this.selectedPub = null; this.selectedMember = m; return; }
+      } else if (kind === "pub" && id) {
+        const p = this.data.publications.find((x) => x.id === id);
+        if (p) { this.selectedMember = null; this.selectedPub = p; return; }
+      }
+      this.selectedMember = null;
+      this.selectedPub = null;
+      history.replaceState(null, "", location.pathname + location.search);
     },
 
     t(key) {

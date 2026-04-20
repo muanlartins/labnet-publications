@@ -111,7 +111,7 @@
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         <template x-for="m in filteredMembers" :key="m.id">
-          <article @click="selectedMember = m" class="group bg-zinc-900/40 hover:bg-zinc-900 border border-zinc-800/80 hover:border-zinc-700 rounded-xl p-5 cursor-pointer transition flex flex-col gap-3">
+          <article @click="openMember(m)" class="group bg-zinc-900/40 hover:bg-zinc-900 border border-zinc-800/80 hover:border-zinc-700 rounded-xl p-5 cursor-pointer transition flex flex-col gap-3">
             <div class="flex items-start gap-3">
               <div class="w-14 h-14 rounded-full bg-zinc-800 ring-2 ring-zinc-800 group-hover:ring-accent-500/30 shrink-0 overflow-hidden grid place-items-center">
                 <template x-if="m.photo_url">
@@ -244,7 +244,7 @@
                 </h2>
                 <ul class="space-y-2">
                   <template x-for="p in group.items" :key="p.id">
-                    <li @click="selectedPub = p" class="bg-zinc-900/30 hover:bg-zinc-900/60 border border-zinc-800/80 hover:border-zinc-700 rounded-lg p-4 cursor-pointer transition">
+                    <li @click="openPub(p)" class="bg-zinc-900/30 hover:bg-zinc-900/60 border border-zinc-800/80 hover:border-zinc-700 rounded-lg p-4 cursor-pointer transition">
                       <div class="flex items-start justify-between gap-4">
                         <div class="min-w-0">
                           <h3 class="font-medium text-zinc-100 leading-snug" x-text="p['title_'+lang] || p.title"></h3>
@@ -324,8 +324,8 @@
   </main>
 
   <!-- ============================== MEMBER DRAWER ============================== -->
-  <div x-show="selectedMember" x-transition.opacity @keydown.escape.window="selectedMember = null"
-       class="fixed inset-0 z-40 bg-zinc-950/80 backdrop-blur-sm grid place-items-start justify-end p-0 sm:p-4" @click.self="selectedMember = null">
+  <div x-show="selectedMember" x-transition.opacity @keydown.escape.window="closeOverlay()"
+       class="fixed inset-0 z-40 bg-zinc-950/80 backdrop-blur-sm grid place-items-start justify-end p-0 sm:p-4" @click.self="closeOverlay()">
     <article x-show="selectedMember" x-transition
              class="bg-zinc-900 border border-zinc-800 rounded-xl shadow-2xl w-full max-w-3xl max-h-screen sm:max-h-[95vh] overflow-y-auto" @click.stop>
       <template x-if="selectedMember">
@@ -364,7 +364,7 @@
                 </template>
               </div>
             </div>
-            <button @click="selectedMember = null" class="shrink-0 text-zinc-500 hover:text-zinc-100 transition" aria-label="Close">
+            <button @click="closeOverlay()" class="shrink-0 text-zinc-500 hover:text-zinc-100 transition" aria-label="Close">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 5l10 10M15 5l-10 10"/></svg>
             </button>
           </header>
@@ -396,7 +396,7 @@
                       <ul class="space-y-1.5">
                         <template x-for="p in g.items" :key="p.id">
                           <li class="text-sm">
-                            <button @click="selectedPub = p; selectedMember = null" class="text-left w-full hover:text-accent-400 transition">
+                            <button @click="openPub(p)" class="text-left w-full hover:text-accent-400 transition">
                               <span class="text-zinc-200" x-text="p['title_'+lang] || p.title"></span>
                               <span class="text-zinc-500 italic" x-text="p.venue ? ' · ' + (p.venue.short_name || p.venue.name) : ''"></span>
                               <span class="text-[10px] uppercase tracking-wider font-medium text-zinc-500 ml-1" x-text="pubTypeName(p.type)"></span>
@@ -440,8 +440,8 @@
   </div>
 
   <!-- ============================== PUBLICATION DRAWER ============================== -->
-  <div x-show="selectedPub" x-transition.opacity @keydown.escape.window="selectedPub = null"
-       class="fixed inset-0 z-50 bg-zinc-950/80 backdrop-blur-sm grid place-items-center p-4 sm:p-8" @click.self="selectedPub = null">
+  <div x-show="selectedPub" x-transition.opacity @keydown.escape.window="closeOverlay()"
+       class="fixed inset-0 z-50 bg-zinc-950/80 backdrop-blur-sm grid place-items-center p-4 sm:p-8" @click.self="closeOverlay()">
     <article x-show="selectedPub" x-transition
              class="bg-zinc-900 border border-zinc-800 rounded-xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto" @click.stop>
       <template x-if="selectedPub">
@@ -457,7 +457,7 @@
                 </template>
               </div>
             </div>
-            <button @click="selectedPub = null" class="shrink-0 text-zinc-500 hover:text-zinc-100 transition" aria-label="Close">
+            <button @click="closeOverlay()" class="shrink-0 text-zinc-500 hover:text-zinc-100 transition" aria-label="Close">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 5l10 10M15 5l-10 10"/></svg>
             </button>
           </header>
@@ -469,7 +469,7 @@
                   <li>
                     <span class="font-mono text-[11px] text-zinc-500 mr-2" x-text="a.position + '.'"></span>
                     <template x-if="a.member_id">
-                      <button @click="selectedMember = data.members.find(m => m.id === a.member_id); selectedPub = null" class="text-accent-400 hover:underline" x-text="a.name"></button>
+                      <button @click="openMemberById(a.member_id)" class="text-accent-400 hover:underline" x-text="a.name"></button>
                     </template>
                     <template x-if="!a.member_id">
                       <span x-text="a.name"></span>
