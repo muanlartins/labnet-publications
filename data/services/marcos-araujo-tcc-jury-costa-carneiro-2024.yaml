@@ -1,0 +1,27 @@
+id: marcos-araujo-tcc-jury-costa-carneiro-2024
+title: "Undergraduate thesis jury for Felipe Barros Costa and Vinicius Vargas Carneiro (UFRJ 2024)"
+role: tcc_jury
+member_id: marcos-araujo
+year: 2024
+related_work:
+  kind: tcc
+  candidate_name: "Felipe Barros Costa; Vinicius Vargas Carneiro"
+  candidate_institution: "Universidade Federal do Rio de Janeiro"
+  title: "INDÚSTRIA 4.0: UMA ANÁLISE APROFUNDADA SOBRE OS MÉTODOS DE GESTÃO DE PROJETOS DE TECNOLOGIA"
+  title_pt: "INDÚSTRIA 4.0: UMA ANÁLISE APROFUNDADA SOBRE OS MÉTODOS DE GESTÃO DE PROJETOS DE TECNOLOGIA"
+  title_en: "Industry 4.0: An In-depth Analysis of Technology Project Management Methods"
+  graduation_year: 2024
+location:
+  city: "Rio de Janeiro"
+  country: "Brazil"
+  region: br
+areas: [se]
+tags: [industry-4.0, project-management]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Joint TCC defense for two students (Engenharia de Controle e Automação, UFRJ). Claudio Miceli de Farias (LabNet) also served on this panel — recorded separately as miceli-tcc-jury-costa-carneiro-2024."

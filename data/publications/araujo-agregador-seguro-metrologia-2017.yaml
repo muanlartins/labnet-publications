@@ -1,0 +1,52 @@
+id: araujo-agregador-seguro-metrologia-2017
+title: "Agregador seguro na nuvem de dados de medidores inteligentes utilizando Intel SGX"
+title_en: "Secure cloud aggregator for smart-meter data using Intel SGX"
+authors:
+  - name: "Marcos Vinicius Monteiro Araújo"
+    position: 1
+    member_id: marcos-araujo
+    orcid: "0000-0003-4147-2832"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+    is_corresponding: true
+  - name: "Girrese Ferreira Reinehr"
+    position: 2
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Charles B. Prado"
+    position: 3
+    orcid: "0000-0003-3119-9772"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Luiz Fernando Rust da Costa Carmo"
+    position: 4
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+authors_labnet: [marcos-araujo, luiz-fernando-rust]
+year: 2017
+type: conference_paper
+language: pt
+venue:
+  name: "XII Congresso Internacional de Metrologia Elétrica (CIMElec 2017)"
+  short_name: "CIMElec"
+  full_name: "XII International Congress on Electrical Metrology"
+  type: conference
+  society: other
+location:
+  city: "Fortaleza"
+  country: "Brazil"
+  region: br
+areas: [security, energy]
+tags: [intel-sgx, smart-meters, cloud-security]
+identifiers:
+  openalex_id: "W2905978441"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W2905978441"
+    source_id: "W2905978441"
+    fetched_at: "2026-04-19"
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "OpenAlex record lacked the venue; venue name + location filled from the Lattes CV. No DOI issued for CIMElec proceedings."

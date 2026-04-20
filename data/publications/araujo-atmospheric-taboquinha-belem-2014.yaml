@@ -1,0 +1,41 @@
+id: araujo-atmospheric-taboquinha-belem-2014
+title: "Technical Analysis of Need for Protection System in Atmospheric Discharge Located in Popular Residential Taboquinha, Belem, PA"
+authors:
+  - name: "B. C. Brasileiro"
+    position: 1
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "B. R. P. Rocha"
+    position: 2
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "R. G. Melo"
+    position: 3
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "Marcos Vinicius Monteiro Araújo"
+    position: 4
+    member_id: marcos-araujo
+    orcid: "0000-0003-4147-2832"
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+authors_labnet: [marcos-araujo]
+year: 2014
+type: conference_paper
+language: en
+venue:
+  name: "International Conference on Grounding and Earthing (GROUND'2014) & 6th International Conference on Lightning Physics and Effects (LPE 2014)"
+  short_name: "GROUND/LPE"
+  full_name: "International Conference on Grounding and Earthing & 6th International Conference on Lightning Physics and Effects"
+  type: conference
+  society: other
+location:
+  city: "Manaus"
+  country: "Brazil"
+  region: br
+areas: [energy]
+tags: [lightning-protection, atmospheric-discharge, residential]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Pre-LabNet publication. Not indexed in OpenAlex / DBLP — sourced from the Lattes CV only."

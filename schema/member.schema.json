@@ -108,6 +108,11 @@
       "format": "date",
       "description": "Date the member record itself (profile links, role, status) was last verified."
     },
+    "lattes_checked_at": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Date the member's Lattes PDF was last cross-checked during a refresh. Null or absent means the Lattes has not been cross-checked — the record may be missing publications / services only present there. Drop a file named 'Currículo do Sistema de Currículos Lattes (<full_name>).pdf' anywhere under $HOME/repos/ to enable this."
+    },
     "verified_by": { "type": "string" },
     "notes": { "type": "string" }
   }
