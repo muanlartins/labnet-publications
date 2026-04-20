@@ -1,0 +1,33 @@
+id: araujo-processamento-seguro-smart-meters-2022
+title: "Processamento Seguro de Dados de Smart Meters"
+title_en: "Secure Processing of Smart-Meter Data"
+authors:
+  - name: "Marcos Vinicius Monteiro Araújo"
+    position: 1
+    member_id: marcos-araujo
+    orcid: "0000-0003-4147-2832"
+    affiliation: "PPGI / NCE / UFRJ"
+authors_labnet: [marcos-araujo]
+year: 2022
+type: dissertation
+language: pt
+venue:
+  name: "Programa de Pós-Graduação em Informática (PPGI), Núcleo de Computação Eletrônica (NCE), Universidade Federal do Rio de Janeiro"
+  short_name: "PPGI/NCE/UFRJ"
+  full_name: "Programa de Pós-Graduação em Informática, NCE/UFRJ"
+  type: institution
+  society: other
+location:
+  city: "Rio de Janeiro"
+  country: "Brazil"
+  region: br
+areas: [security, energy, iot]
+tags: [intel-sgx, smart-meters, cloud-security, master-dissertation]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Master's dissertation. Advisor: Luiz Fernando Rust da Costa Carmo (LabNet). Co-advisor: Cláudio Miceli de Farias (LabNet). Extends his 2017 CIMElec / 2018 SBSeg line of work on Intel SGX-based secure aggregation of smart-meter data. Sourced from the Lattes CV; PPGI Pantheon link not yet verified."

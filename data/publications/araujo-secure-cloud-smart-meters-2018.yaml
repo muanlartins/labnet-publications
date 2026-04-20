@@ -1,0 +1,66 @@
+id: araujo-secure-cloud-smart-meters-2018
+title: "Secure Cloud Processing for Smart Meters Using Intel SGX"
+authors:
+  - name: "Marcos Vinicius Monteiro Araújo"
+    position: 1
+    member_id: marcos-araujo
+    orcid: "0000-0003-4147-2832"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+    is_corresponding: true
+  - name: "Carolina Braun Prado"
+    position: 2
+    orcid: "0000-0001-6593-5649"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Luiz Fernando Rust da Costa Carmo"
+    position: 3
+    member_id: luiz-fernando-rust
+    orcid: "0000-0001-6131-7771"
+    affiliation: "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)"
+  - name: "Alvaro E. R. Rincón"
+    position: 4
+    affiliation: "Universidade Federal do Rio de Janeiro"
+  - name: "Cláudio Miceli de Farias"
+    position: 5
+    member_id: claudio-miceli
+    orcid: "0000-0002-1927-7398"
+    affiliation: "Universidade Federal do Rio de Janeiro"
+authors_labnet: [marcos-araujo, luiz-fernando-rust, claudio-miceli]
+year: 2018
+month: 10
+date: "2018-10-25"
+type: symposium_paper
+language: en
+venue:
+  name: "Anais do XVIII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais (SBSeg 2018)"
+  short_name: "SBSeg"
+  full_name: "18th Brazilian Symposium on Information and Computational Systems Security"
+  type: symposium
+  society: sbc
+location:
+  city: "Natal"
+  country: "Brazil"
+  region: br
+pages: "425-432"
+areas: [security, energy, iot]
+tags: [intel-sgx, smart-meters, cloud-security, trusted-execution]
+identifiers:
+  doi: "10.5753/sbseg.2018.4274"
+  openalex_id: "W2939268645"
+  sbc_sol_id: "sbseg/2018/4274"
+url: "https://doi.org/10.5753/sbseg.2018.4274"
+pdf_url: "https://sol.sbc.org.br/index.php/sbseg/article/download/4274/4205"
+sources:
+  - source: openalex
+    url: "https://api.openalex.org/works/W2939268645"
+    source_id: "W2939268645"
+    fetched_at: "2026-04-19"
+  - source: sbc_sol
+    url: "https://sol.sbc.org.br/index.php/sbseg/article/view/4274"
+    source_id: "sbseg/2018/4274"
+    fetched_at: "2026-04-19"
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
