@@ -1,0 +1,23 @@
+id: marcos-araujo-organizer-ersi-rj-2017
+title: "Organizing committee, IV Escola Regional de Sistemas de Informação do Estado do Rio de Janeiro (ERSI-RJ 2017)"
+role: event_organizer
+member_id: marcos-araujo
+year: 2017
+venue:
+  name: "IV Escola Regional de Sistemas de Informação do Estado do Rio de Janeiro (ERSI-RJ 2017)"
+  short_name: "ERSI-RJ"
+  full_name: "4th Regional School on Information Systems of Rio de Janeiro"
+  type: conference
+  society: sbc
+location:
+  city: "Rio de Janeiro"
+  country: "Brazil"
+  region: br
+areas: [se]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"

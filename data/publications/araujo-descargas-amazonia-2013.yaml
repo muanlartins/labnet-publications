@@ -1,0 +1,45 @@
+id: araujo-descargas-amazonia-2013
+title: "Descargas Atmosféricas Na Amazônia: Estudo de Eventos Extremos como Ocorrências de Morte No Estado do Pará No Período de 2010"
+title_en: "Atmospheric Discharges in the Amazon: Study of Extreme Events as Death Occurrences in the State of Pará during 2010"
+authors:
+  - name: "K. M. Araujo"
+    position: 1
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "B. R. P. Rocha"
+    position: 2
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "Marcio Nirlando Lopes"
+    position: 3
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "R. G. Melo"
+    position: 4
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "Marcos Vinicius Monteiro Araújo"
+    position: 5
+    member_id: marcos-araujo
+    orcid: "0000-0003-4147-2832"
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+authors_labnet: [marcos-araujo]
+year: 2013
+type: symposium_paper
+language: pt
+venue:
+  name: "V Simpósio Internacional de Climatologia (V SIC 2013)"
+  short_name: "SIC"
+  full_name: "5th International Symposium on Climatology"
+  type: symposium
+  society: other
+location:
+  city: "Florianópolis"
+  country: "Brazil"
+  region: br
+areas: [energy]
+tags: [lightning, amazon, mortality-analysis]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Pre-LabNet publication from Marcos's UFRA undergraduate research. Not indexed in OpenAlex / DBLP — sourced from the Lattes CV only. Topic (meteorology / mortality analysis) sits outside our controlled area vocabulary; `energy` is the closest fit via the lightning-grid interaction angle."

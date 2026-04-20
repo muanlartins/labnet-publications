@@ -187,12 +187,53 @@ OpenAlex covers most of what Semantic Scholar does; reach for SS only when OpenA
 GET https://api.semanticscholar.org/graph/v1/paper/DOI:<doi>?fields=title,authors,year,venue,abstract,externalIds
 ```
 
-## Lattes (default: skip)
+## Lattes
 
-`http://lattes.cnpq.br/<lattes_id>` returns a JS-rendered HTML CV that's CAPTCHA-gated on repeated fetches. WebFetch on it returns mostly layout. The authoritative form is the XML export, which requires the owner's login — we can't automate that.
+Two very different paths. Prefer the PDF.
 
-Touch Lattes only when:
+### Lattes PDF (preferred, high-trust)
+
+The Lattes website has an "Exportar → PDF" button. When the user drops that PDF anywhere under `~/repos/`, it becomes the single best source for Brazilian-venue coverage — no JavaScript, no CAPTCHA, no rate limits.
+
+**Detection.** At the start of each member's refresh, before querying APIs:
+
+```bash
+find $HOME/repos -maxdepth 4 -type f \( \
+    -iname "*Lattes*<surname>*.pdf" -o \
+    -iname "*<full_name>*.pdf" -o \
+    -iname "*Currículo*<given_name>*.pdf" \
+\)
+```
+
+Read the file with the Read tool — PDF extraction is built in. Focus on these sections:
+
+| Section | Maps to |
+|---|---|
+| `Identificação` → ORCID iD, Lattes iD, Nome em citações | Member `profiles.orcid`, `profiles.lattes_id`, `aliases` |
+| `Formação acadêmica/titulação` | PhD / master / TCC records (type `thesis` / `dissertation` / `tcc`) + derived advising services for LabNet advisors/co-advisors |
+| `Produção bibliográfica` → `Trabalhos completos publicados em anais de congressos` | `type: conference_paper` / `symposium_paper` / `workshop_paper` |
+| `Produção bibliográfica` → `Artigos completos publicados em periódicos` | `type: journal_article` |
+| `Produção bibliográfica` → `Artigos aceitos para publicação` | Still a valid published record — include as `journal_article` or `conference_paper` per the venue. Some members (like Marcos Araújo with Heimdall) mis-label the venue here; cross-check DBLP. |
+| `Capítulos de livros publicados` | `type: book_chapter` |
+| `Bancas` → `Participação em bancas de trabalhos de conclusão` | Service: `tcc_jury` / `dissertation_jury` / `thesis_jury` / `qualifying_exam` |
+| `Orientações concluídas` | Services: `advising_phd` / `advising_masters` / `advising_tcc` / `advising_ic` / `advising_specialization` |
+| `Orientações em andamento` | Same services, `year_end: null` |
+| `Revisor de periódico` | `reviewer_journal` |
+| `Revisor de projeto` | `grant_reviewer` |
+| `Organização de eventos` | `event_organizer` / `general_chair` / `track_chair` per the role listed |
+| `Projetos de pesquisa` | Context for bio / `notes` — not publications |
+
+**Trust.** A Lattes-only record is a valid record: add it, cite `source: lattes` with `url: http://lattes.cnpq.br/<lattes_id>` and `fetched_at: <today>`. Do not downgrade a Brazilian-venue paper just because OpenAlex missed it — OpenAlex systematically under-indexes SBSE / Grounding-and-Lightning / CIMElec / SIC / regional workshops, and the Lattes is your only view of that tail.
+
+**Mark the check.** After writing all records, set `lattes_checked_at: <today>` on the member YAML. Future runs check this field to know whether the Lattes corpus has been mined.
+
+### Lattes HTML (default: skip)
+
+`http://lattes.cnpq.br/<lattes_id>` returns a JS-rendered HTML CV that's CAPTCHA-gated on repeated fetches. WebFetch returns mostly layout. The authoritative XML export requires the owner's login — we can't automate that.
+
+Touch the live HTML only when:
+- No PDF is available in `~/repos/`.
 - The user explicitly requests it.
-- You're looking for a specific Lattes-exclusive item (most commonly: thesis-jury / banca records for professors).
+- You need a single specific Lattes-exclusive item linked from another source.
 
-Even then: grab what you can, note `sources[].source: lattes` + `notes` explaining the scrape limitations.
+Even then, grab what you can and note the scrape limitations in the record's `notes`.

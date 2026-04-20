@@ -81,6 +81,7 @@ service_roles:
   - { id: advising_masters,        name_en: Master's Advising,       name_pt: Orientação de Mestrado }
   - { id: advising_tcc,            name_en: Undergrad Advising,      name_pt: Orientação de TCC }
   - { id: advising_ic,             name_en: Research Apprentice Advising, name_pt: Orientação de IC }
+  - { id: advising_specialization, name_en: Specialization Advising, name_pt: Orientação de Especialização }
   - { id: coadvising_phd,          name_en: PhD Co-Advising,         name_pt: Co-orientação de Doutorado }
   - { id: coadvising_masters,      name_en: Master's Co-Advising,    name_pt: Co-orientação de Mestrado }
   - { id: invited_talk,            name_en: Invited Talk,            name_pt: Palestra Convidada }

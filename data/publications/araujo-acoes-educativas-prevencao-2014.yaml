@@ -1,0 +1,44 @@
+id: araujo-acoes-educativas-prevencao-2014
+title: "Necessidade de Ações Educativas para Prevenção de Acidentes Elétricos em Domicílios Urbanos"
+title_en: "The Need for Educational Actions to Prevent Electrical Accidents in Urban Households"
+authors:
+  - name: "M. R. S. Santos"
+    position: 1
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "M. S. Santos"
+    position: 2
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "B. R. P. Rocha"
+    position: 3
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "Marcos Vinicius Monteiro Araújo"
+    position: 4
+    member_id: marcos-araujo
+    orcid: "0000-0003-4147-2832"
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+  - name: "R. G. Melo"
+    position: 5
+    affiliation: "Universidade Federal Rural da Amazônia (UFRA)"
+authors_labnet: [marcos-araujo]
+year: 2014
+type: symposium_paper
+language: pt
+venue:
+  name: "V Simpósio Brasileiro de Sistemas Elétricos (SBSE 2014)"
+  short_name: "SBSE"
+  full_name: "5th Brazilian Symposium on Electric Systems"
+  type: symposium
+  society: ieee
+location:
+  country: "Brazil"
+  region: br
+areas: [energy, education]
+tags: [electrical-safety, public-awareness, residential]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Pre-LabNet publication from Marcos's UFRA undergraduate research (Licenciatura em Computação). Not indexed in OpenAlex / DBLP / SBC SOL — sourced from the Lattes CV only."

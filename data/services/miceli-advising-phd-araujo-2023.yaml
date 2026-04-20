@@ -1,0 +1,26 @@
+id: miceli-advising-phd-araujo-2023
+title: "PhD advising for Marcos Vinicius Monteiro Araújo (PESC/COPPE/UFRJ 2023–)"
+role: advising_phd
+member_id: claudio-miceli
+year: 2023
+year_start: 2023
+year_end: null
+related_work:
+  kind: thesis
+  candidate_name: "Marcos Vinicius Monteiro Araújo"
+  candidate_institution: "PESC/COPPE/UFRJ"
+  advisor: "Cláudio Miceli de Farias"
+  graduation_year: null
+location:
+  city: "Rio de Janeiro"
+  country: "Brazil"
+  region: br
+areas: [security, iot, distributed]
+sources:
+  - source: lattes
+    url: "http://lattes.cnpq.br/2933165577023180"
+    fetched_at: "2026-04-19"
+last_verified: "2026-04-19"
+verified_by: claude
+added_at: "2026-04-19"
+notes: "Ongoing — Marcos entered the PESC PhD program in 2023 with Cláudio Miceli as advisor. Thesis title not yet established."
